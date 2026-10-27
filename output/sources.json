@@ -1,0 +1,215 @@
+{
+  "generated_at": "2026-10-28T03:16:36.221884+09:00",
+  "weather": {
+    "신도림": {
+      "현재기온": 3.6,
+      "현재강수mm": 0.0,
+      "날씨코드": 0,
+      "최고기온": 10.9,
+      "최저기온": 1.9,
+      "최대강수확률": 0
+    },
+    "부천": {
+      "현재기온": 2.5,
+      "현재강수mm": 0.0,
+      "날씨코드": 0,
+      "최고기온": 10.6,
+      "최저기온": 0.5,
+      "최대강수확률": 0
+    }
+  },
+  "articles": [
+    {
+      "분야": "주요뉴스",
+      "제목": "‘강남 판자촌’ 구룡마을 화재로 주민 100여명 집 잃어…대응 1단계로 하향 - 한겨레",
+      "발행": "Tue, 27 Oct 2026 14:59:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WT21Ob2pENUpfeEtUcDM5RE0xQ1ltbGhaSGFoVEZXWlJnXzJDMEVMQXdkMXFfeUc5SjhwTFFwQW11aFFQdzAwUjctcjYwNDBVQ1BOYjBYZmlFUGM2ZjJZeEFSNmV2RkloSVhabHBhS0psUQ?oc=5"
+    },
+    {
+      "분야": "주요뉴스",
+      "제목": "책임 회피·관리 부실·수습 혼선…4년 전 재난대응은 ‘총체적 실패’ - 경향신문",
+      "발행": "Tue, 27 Oct 2026 12:23:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBILUxXX3FjT2QwcjNjY1lhZzlfbEJxMWRnOWhGVVBtU3VPTTItaGI4MEJzcFlFYkpBTVJQOHdwZWtJbXV3YVRJS1FtcndJRjBydVE2TlRRVzZSUdIBX0FVX3lxTE9RSl92TThsOWtmMzRwOFl5UHJULUZHdE9GMGhRVmZIV2dzalRpangyajFMQXJOdHBZQnUyckpzZFl0b2pVS1BMUFFHal96dUtsWWs1ZzdQYnZOYW9ZOTNF?oc=5"
+    },
+    {
+      "분야": "주요뉴스",
+      "제목": "구로구 주택가 시신 유기한 남성 2명 체포…빌라주인 등(종합) - 연합뉴스",
+      "발행": "Tue, 27 Oct 2026 09:01:22 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OSWtwRFc1eUxrNlRRU1FMSGhuTFpPMDE5eExUZEJpTlBlcThveE8xTTBVUWZTR3gwSEMtblFncVdBVmFNNWRnM0pSS2tBV21nWGc4U010YzJxZzjSAWBBVV95cUxOWkdDS2FLNF90QlJpNmRrX3ZieDhrcUc0MzVydUhLYmZzT2pkN1ROTHdBRjVXem92Z1YwZi1XdEJxZUd5REJfTFZoZ2NsTDBqSGlrS2h1UjhoSllIMFJzdkM?oc=5"
+    },
+    {
+      "분야": "주요뉴스",
+      "제목": "[날씨] '올 가을 가장 추운 날' 아침 기온 뚝↓ ...강풍.한파특보 발효지역은? - 헤드라인제주",
+      "발행": "Tue, 27 Oct 2026 13:26:50 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rdzVCRF9hcW53SXRjbG9YREFDS2hOVDZGbTFDZDNyemF5NWE3d1hpY1RjeDJza2x4dzNiczJROTMxWl9UZzUzSURZdThiNk8xZ1pQTEhRaEZzSmRDY28yS2NkOFVHRzRRbUlBTHFlcDd4cWs?oc=5"
+    },
+    {
+      "분야": "주요뉴스",
+      "제목": "\"모든 것의 끝 아냐\"... 김건희 추가 구속에 변호인이 남긴 말 - OhmyNews",
+      "발행": "Tue, 27 Oct 2026 02:00:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5IN0F3V0s2aFJFblUwaWdERmpHUHpVZGlidTd2NEg3QUJ6ekJ3anB2VGNpQjF4aFR2RDQ1eTU4QjAtTXR1RngwLVRnSnVyRFZsWmd1OENtSFBCNzhFZW1oNDN5ZjVpTFJiaWFzRWZ1T1YyMWdOYXVj?oc=5"
+    },
+    {
+      "분야": "주요뉴스",
+      "제목": "초유의 대법원장 국정조사... 민주당, 의총서 밀어붙였다 - 조선일보",
+      "발행": "Tue, 27 Oct 2026 09:37:09 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFByYXkxMWc2cF9CbmJkR3BQZVlMYk8yZk1ZeXp3UVpmLUg0VUU4aWVIU19MdWt3bkVuUDZrM3F6UlFzc2s4WUxrOFFrcGp6aVFJQ2xPWWgwc2lWNFZrd2YwdWRUOWdNRV9nYWhrbU1POTR1SWgzYW1TMTRhcUhIc1NRYXN3dWhtSkI5a2hqWDE?oc=5"
+    },
+    {
+      "분야": "주요뉴스",
+      "제목": "정동영 \"지뢰는 방어용 무기\" 한동훈 \"남의 땅 설치는 공격\" - 한국경제",
+      "발행": "Tue, 27 Oct 2026 05:52:58 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RdThHS2wxZ0p4dHdkMzFjNWV2YTBfZFdraU16QmF3VUE0bXFHSnZiaTJJd1pMZVBRSVV2TnMwcjlvaF95dnh0cmRKSy1JZ3N2SmxMN2dEMzlZdw?oc=5"
+    },
+    {
+      "분야": "주요뉴스",
+      "제목": "“北 자주포 뷰 됐다”는 접경 지역 스타벅스… 진실은 - Chosunbiz",
+      "발행": "Tue, 27 Oct 2026 01:36:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS3ZpMDNWeGk2dHdrYzVUR2QxM1NUbFNCcjl6YXhGUXhsTW84UDRsVld1OF83QURqNm1Od2kxbFJQb0dxdXZsbFRTZGYtQjF1WWFLNWZPa3lYQVNQQWZMSUFHbmpXR3NlUXBLQk9jWnhnelF4LXowblJDWTYxbHFTVUI5MURRR2Iwd1HSAZ4BQVVfeXFMT0ljZ1FQWGFiOGJfUERjbnVkRERCdnQ5TXVmR2U2eXpRcEVOenNfOUhJSW1qSmR3Q1FzQ2FfelpSUzI0SUE5ZnAxaE1sa3JYYlZhbldZWlZNTFZWS0dzdWo5UzdscWRTQ0tvUG5kNk52T0hmc2J0ejVhaVN1amJzM2JZT21kU3JLdnNLd2VjaEpTclJxLTBiRjFTUUctVlE?oc=5"
+    },
+    {
+      "분야": "주요뉴스",
+      "제목": "외신들 “리디아 고, 경기 앞두고 정치적 논란 휘말려” 보도 - 한겨레",
+      "발행": "Tue, 27 Oct 2026 08:57:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpZDRrYTF2V0U3ZEtNUnRPM1BSSGE0WGRYTWI1TjBiNjBIbGI4a0tHMEJQUVpTbHJ6MHQtMDhPMG9VMFdTOFJ1WnRWU09SQnZBMFIyOGxySkJ6djBKXzU3WUpLRDlzbXBoU2FwN0lLVnJ2dw?oc=5"
+    },
+    {
+      "분야": "주요뉴스",
+      "제목": "강신철 “北과 전쟁시 미군 믿을 수 있나” 전작권 전환 신중론 반박 - 동아일보",
+      "발행": "Mon, 26 Oct 2026 19:30:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QOTFoWEYwUjgtcTZ3NjdDUzJlc0hNUWZDREczRzc3UFlfb2xVcmRTcS1DWC1lNm1VQzZqclgzZ1JOT1B1REFFdldTTW4zMWZPQlBpNEZsVndXZG9rcE4xMmppM0ZqV3V0SlJENFhQT1lQOFF6Q3R30gFmQVVfeXFMTTNXbUZPMnY1bzF2Umc4MmZ4aHBCM2RZaUZoMDdoeXo2andsdi1EVS1YNzFLS05ZNTNfMGJMWUUwWE1mcXh2dlF6dTFhd1VDOGJKUDFVMXlJa2RtTDVwZkQ0V3kzQ2hn?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "프랑스 정부, 시위 막으려 SNS 차단까지 검토 - 연합뉴스",
+      "발행": "Tue, 27 Oct 2026 15:24:24 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wQ05SN29QVTd5TnBaOE1hT0lHdzVLWTRWdzNvLVMyNE1UM2xWY2dEVXlhTW5MSnJEZkJOUFBiLTg3WHEzVEZCUE1JVF9PRzI1U0RlQVk5WTFoMmPSAWBBVV95cUxPbHJQc2h0SVBzWk1jby1NZml4bTQ5YTI1WFdWbms0bFBDd3dDQjFSRWpmeUM2VGNtaGV5ajUteFNqcDI0WDg2SEM5eEpjNlZKQnc0RVhCSWNCcDlMZmkwLVg?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "네타냐후 운명 가를 이스라엘 총선 개막…가자전쟁 후 첫 선거 - 한겨레",
+      "발행": "Tue, 27 Oct 2026 13:12:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBET2Q5bUtYbEVwSWlMMUFoSFcyLXdubmlOLUc2TEpadEF0bzN2NTltXzNveGhMWTlqcDNOLXU5d0NZcndjVmNpMEdTMEFtU1hfUm5Wbkx6aktJdzFWMFlqX3hOQWplRTRESXVEVkh0LTlXQTg?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "보우소나루, 브라질 대선 불복 철회‥'트럼프 손절'에 백기 - MBC 뉴스",
+      "발행": "Tue, 27 Oct 2026 07:26:10 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zQVBtOXlaelc4WGVBR2k3UDA0UkE0VDd1Z2hWMWU4TFljOWtKSG11Y2Q4T0RVdFQ5SG5IdnpjZDR0NUpsVEpmemdfWTBnbGNxRkJPWEQ2Rlh4anNiMjBxbWVBOGFUaFJXZjcxZFBjWFBvUnEw0gF0QVVfeXFMT2FtUk9ZNWtwVGl6Vlc5Rl90VlJXTjloZjNtS29zTlQxc1laRHozcHBKNGd1LUl2N29nV1ZScVlJSTU0d0ExWmZacWp1WHVUcXF4LVdMbDVwNVF0M0VFYm01Z0pBVlZxU21fRS1XUTBseDB6WFE?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "국지휴전 개시한 러·우크라…다른 곳에선 맞불 타격 - 연합뉴스TV",
+      "발행": "Tue, 27 Oct 2026 08:58:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CN1RPX3JaTUhidGRLLXdJYmRsQXA3TE9PeVB2bmtxNno3QUxuQ1A1OW1MenJsczZ4WVdlWWdmY19wMXhOTDltN1hOUUFTRGZ3dUlhaFRRQmpVOGp5SGtvTEpCYldHMGM?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "정동영 \"김정은 방중, 北움직임 시작…외교라인 총출동 주목\" - 연합뉴스",
+      "발행": "Tue, 27 Oct 2026 05:24:55 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CRnJ1NlRselpTbi1haEw4UnNSRmU3X1dyckwwRnRUa0dzdnlBSjhYZGg1SWNSTGUzMDZUWHk5U2p0QUdWZktQa2tDcmFRNVNvRUtiY1lPZE1aNTTSAWBBVV95cUxPbFZzQ2h6eUpqLXV0RGRWOTdNcVpPVHRBNFJjMEQxSlpoOHVVVDRKZm9CeG8xWkQyUzZCdGtJaWdpVWlBX1NENUVaWFF2SXc4Q1BEbDZldXg1QmE3Ml9WN3U?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "美 중간선거 앞두고 러 유조선 3척 뉴욕행…제재 선박 포함에 논란 더 거세져 - 파이낸셜뉴스",
+      "발행": "Tue, 27 Oct 2026 14:31:20 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jbTZ1dTV4akpKN3E3MnU2c3JDSWtaOHByVDQzWUVIMndnT1VYNHpISTBfc2VtcUEzWk1DU1RCSmZFQjZpdEM4TEV1XzJvZ1VHMnpQTk5mSnFzdw?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "메카 3국·이란 회담 다음날…후티 \"사우디 국방부 등 공격\" - 연합뉴스",
+      "발행": "Tue, 27 Oct 2026 15:58:27 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xSlpTaWl2QmJCSWZDY1hTdXZ6Z283U1poNEtMb2xNRHFpa3NJWTJwVFlYdE5xNlhLNGpYcHBVM3FUUzdRejBpRktZbXIwcmFRVnd0UmY1WnllaWvSAWBBVV95cUxPb05WSlR5clVqVTU4OGZEN1ByQ0xPY3lDWWx6bTRtYkIydVFqVjFCX0xSNVU0Y2kyVVVoeUp5czVGMWEyclAzckNYNm9rVzJoQmUyRVQwZVdJdGszWjZPY3g?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "트럼프 \"이란전쟁 곧 끝날 것…휴전 시간낭비였다\" - 한국경제",
+      "발행": "Tue, 27 Oct 2026 01:54:31 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1MC1QNjd6UVVkWnVleFBzTEFDYVF4bExmaUNMQ1M5ZU93cEhrVk45ODlRaGt4Sjc3X2hxUzNPeC1HVmRIcl9sYlMyZlViUzZSXzRDN3QwMkhxZw?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "中 5중전회, 중앙위원 대거 퇴출 주목, 류젠차오 강등설도 - 뉴스핌",
+      "발행": "Mon, 26 Oct 2026 23:03:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0VTZGa0lyRmJlUDVQYVNURVBIa2pzRUk2aEx4dVBVQjRqSmVob3ZIZTc3SjdsV3NqaktoNDNIbjA3QXdtdDNvOTY3ZTFpX3FfNWxoWUFHWVdnd2Zu?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "유엔 사무총장에 ‘친러 정치인’ 미는 트럼프…EU와 갈등 예고 - 동아일보",
+      "발행": "Tue, 27 Oct 2026 07:06:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hLXR1SmdmOVY4c1htZEtpTGhTWDAtdFdGemNkem1QOEZVTEJnYzVOcTJlNTRZNDRpbHo3dGpJSkJUQXJ6ZlVwT1prT0RkUkF6WnJNdmNRU09jOE42RkNQQTZLM1l0b091cE4yLWlHUDk2dk3SAWZBVV95cUxPcGZHR2N2UGs0cVFjV1pzU25KNkZvYlcyTi1JU0x5czY0ZzNEcC02eTg0QjdUTzhMNUJYb3hmLUM1NllFRk9zbmZDUEJRbHpXV0JLV1R5WGhLZGEzUkxDX3BzNDlfTHc?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "3분기 GDP 1% '깜짝 증가' - 한국경제",
+      "발행": "Tue, 27 Oct 2026 09:04:28 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tSGRBOVNFTV81R3U0Z3QwNUVzQnhCTDNHNXFEX2RaLXRPUThBaDRlaUVuWFZRaDhIZ1o2MUVrQUlWZ2pHSDlYU1k0TktfN1h1aVdJU2VHWDN5dw?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "“접었더니 화면 쩍” 아이폰 듀오 파손 확산에···‘결함’ 인정한 애플, 무상교체 밝혔지만 재고 부족 - 경향신문",
+      "발행": "Tue, 27 Oct 2026 04:51:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Mb2RwMlBQazdsLTM2RDZHMWhLcnoyZHdIUXVtUDhTeXFVOWgxTXZJdHJ0YThQZTYtVmtFUy1xQ0hNR1dVWkVMOUdJTGo4TEpFMllZelM4TUY1UdIBX0FVX3lxTE4xSmFXTlVMYW9WcUFWNmxNUVdrXzJnRVNnSklpX2kwS1pETUhlWWxBdnpmSENsejhlRnNPZWd1NVdmckRlUEpKVmloRmZyTmNpeVRubE5ZMFNWQ3llTkNj?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "앤트로픽 상장 서류 보니… ‘25배 투자 대박’ SK텔레콤, 구글보다 싸게 샀다 - Chosunbiz",
+      "발행": "Tue, 27 Oct 2026 08:18:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdWJaMG9yTXVhZGhUenRkS3VsazFUNTI3OUVqcThORjNIclBaaUl6c0ZLSWU1NlBCblkwVmpId1Y0OUM3aEFRaTZuaVQ4aTJtMDROZmpUeUwwUlFvYWM5ajhkd1pUU2I3UDhXQTRqQWEtVVlUR0hKanNlbnRsbFljT3F30gGWAUFVX3lxTFBCb09DVm5ZQ0NDaEFEdzRkYTFOUVNEWHRHcG9ma2d1ZllFeGY4NWV3c2JJcTFpVFppbnVCV2o0Qm5vLVRUMm5HTHgyWG9hNmVJSzRaQmJ3RThPU05LZWtjb1JESmRkTVVYNnh4Rm9DLWkxYUhIalIwRi1tSkhGWk85c1hBbV9qYkxpdy1pRTQyeV9zN1JLQQ?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "민주당, 오늘 당정 협의서 가상자산 과세 ‘유예’ 논의 - KBS 뉴스",
+      "발행": "Tue, 27 Oct 2026 16:02:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PZy1MMXVoS0plU2JVZEtCZ3RqTVBnNElCZzd3T1FDcm9ScGFPaUhaSjNDRVR4LTNDR1FoU2FheDFjc0swWlhGcGcyUV9OSzdUNndQZFlhekw2clU?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "취임 4년 이재용, 차기 먹거리로 ‘로봇’ 구상…내부 갈등·책임경영 과제 - 한겨레",
+      "발행": "Tue, 27 Oct 2026 12:11:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqZ3dEVWx0UlVSQ25fTkEwSXNSUkZhS3VJWEJwVi10ZHBaNTJrNnVHdUZkN0lVb1Z0MXNGM2p1d2I2QW5CWVJOMXdPaGwzMW8tZ0RMQXZpS1BjQU5aTlJRa21SeERnczF5ZFE?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "[중국증시-마감] 경기 불확실성에 약세 - 연합인포맥스",
+      "발행": "Tue, 27 Oct 2026 09:27:17 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RWUhDNVdUUG1EbkRKRjBNUW1oSFJUcWpGd0VmNUprUzdwQXJRdklXVHN1bDFvTEt3R2dvVDBmWHpJS1FyNlJ0aE9YVUdlLXR6dnZEUFctM0lSdE90OU9KVWx0VWlvSHFPSWxOT1p1Qzc?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "'단일종목 레버리지' 외국인은 싹 털었네 - 매일경제",
+      "발행": "Tue, 27 Oct 2026 08:38:24 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFaG4yMU41ZjlBbktEbjFFUEx4ZkRXbl8tMDY3QnVuWlBVTzRWSWliU1ppd2xOYWFUOVdjZkFPc0hBd09ydFNONzh6NGpsY0ZvUnc?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "[단독] 삼전닉스, 역대급 환원 주주에 '210조+α' 푼다 - 한국경제",
+      "발행": "Tue, 27 Oct 2026 15:16:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqanJCMk9waEVjd29BSzRfei1JZ0JrcTZpQVNacVRpaTZPVUNpWEVFWFl1T2JIZERHSjZnOVFoM2wtWUJaYmhEMl9wb0ZCSldBRG82V1c2Wi1fQQ?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "JB금융 \"NIM 4분기 반등…자담대·외국인 대출 연말 4.5조 목표\" - 연합인포맥스",
+      "발행": "Tue, 27 Oct 2026 08:49:39 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxX1hmOFdHSmUzdENFczU3T1RCd25YVXJ0V1hUcWZlckV4blU0TXJJS05hQW0zcHN4a3pPNkJiUV9kM3dVUVBPYnAxYzNmRnZ5OHZranZZbDF3UGlNNHVmVC01NV9XR2N0MnlHc0c3QXo?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "[정책 인사이트] 국회·정부, 전기차 완성차 세액공제 포함 추진… “중국산에 대응할 필요” - Chosunbiz",
+      "발행": "Tue, 27 Oct 2026 03:59:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaHBId2h1czc2cjJRYTl4Vm1QajA3LTRhNThGeXhiZXV6YWo0SmFZeUlKeDR0dXVlZk53eVNxQ0NneGRSc3NEbTZpWGNzaUxxY0JsMXNkamlZTGxsRmUxUi1tQ3JxX2RIVDkwZDJVNEdXdTRNWG5lVndCRDRuQkcyMmJhTC0td9IBmgFBVV95cUxNYV9qZFN5MHNoVkxUZENXaDBxUjhHZi0zcDJjMmw4Vm5ER3NsdlY2QUJULXBXTXp6M2ZXd2Y2alhjbF9xdkVneE5lV0ZpaVR2cWhqcC1OUWJjeWpSWldfT0xkZFJHdnFBSkNDSTdSbUZRSnZGME1IY1hDM3ZyemNDVjBPbERNQ0RrQm9ZVkg0Zll3OEpybVNkUVpR?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "[비즈톡톡] 삼성 스마트폰 사업의 고민… 갤럭시A 줄이면 점유율 걱정, S27 출시 당길 수 없는데 - Chosunbiz",
+      "발행": "Tue, 27 Oct 2026 05:25:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYmVWYXg2M3I0NHh5LXJjNnR3Y2pBRVJzZVlnZ0txLWFBdXRieHJfX1NWLW16WVZuSWthcXZoZWt6cEstLTF1bnVwMlltS0dQTjVGODJja25IbGx4bEoxWkRXbmU1Nmk5ZFpMdVRhT1dMSHNpSWkxZVBzbk94RVI1OW930gGWAUFVX3lxTE5lRi1rLTh3Q0pxOVcyR09semk4Q0FFR2Zvb3RoSlhBR1FOR2ZJQ0Roc3BJY0ktTjV3MVdLSXBDS1BNc2tXM0lISGRqOEVQcjkxZUYtLTRLcWMzOFdHOWlxNnF1WXQxUmYycUxGZlZ4eE9VQ29KN3BBQjdibG8wdTZHWGtncTQ1LW9jSHNpZ2RCLXhVZUJnQQ?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "\"40만원 하던 게 80만원\"…요즘 없어서 못 산다는 '이것' [차이나 워치] - 한국경제",
+      "발행": "Mon, 26 Oct 2026 21:55:01 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tYThQaVpZUDE4OWU4NndGLTAxdVpJYzRsRW9INmVIZ0FHN3NZVktLOG40ekxVSkw2VnhEV0JoRnItYllEQUQ2SWNUTjdDWkZFa3NuTGltckJaZw?oc=5"
+    }
+  ]
+}
