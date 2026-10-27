@@ -12,12 +12,14 @@ from difflib import SequenceMatcher
 from zoneinfo import ZoneInfo
 import xml.etree.ElementTree as ET
 import requests
+import imageio_ffmpeg
 
 ROOT=Path(__file__).parent
 OUT=ROOT/'output'
 OUT.mkdir(exist_ok=True)
 NOW=datetime.now(ZoneInfo('Asia/Seoul'))
 HEADERS={'User-Agent':'MorningRadio/1.0 (+personal RSS reader)'}
+FFMPEG=imageio_ffmpeg.get_ffmpeg_exe()
 
 def get_json(url, params=None):
     res=requests.get(url, params=params, headers=HEADERS, timeout=25);res.raise_for_status();return res.json()
@@ -302,7 +304,7 @@ def voice_tts(script,path):
         filters.append(f'[{index}:a]apad=pad_dur=0.25,asetpts=PTS-STARTPTS[a{index}]')
         streams.append(f'[a{index}]')
     filters.append(''.join(streams)+f'concat=n={len(chunk_paths)}:v=0:a=1[voice]')
-    subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-y',*inputs,'-filter_complex',';'.join(filters),'-map','[voice]','-ar','44100','-ac','1','-codec:a','libmp3lame','-b:a','128k',str(path)],check=True)
+    subprocess.run([FFMPEG,'-hide_banner','-loglevel','error','-y',*inputs,'-filter_complex',';'.join(filters),'-map','[voice]','-ar','44100','-ac','1','-codec:a','libmp3lame','-b:a','128k',str(path)],check=True)
 
 def speech_chunks(script,max_chars=650):
     chunks=[];current=''
@@ -322,24 +324,27 @@ def speech_chunks(script,max_chars=650):
 
 def mix(voice,music,out):
     # Gentle music bed ~ -23dB relative to original, intro 4s; looping music under all speech.
-    cmd=['ffmpeg','-hide_banner','-loglevel','error','-y','-stream_loop','-1','-i',str(music),'-i',str(voice),'-filter_complex',
+    cmd=[FFMPEG,'-hide_banner','-loglevel','error','-y','-stream_loop','-1','-i',str(music),'-i',str(voice),'-filter_complex',
          '[0:a]volume=0.20[bg];[1:a]adelay=4000|4000,volume=1.0[vo];[bg][vo]amix=inputs=2:duration=longest:dropout_transition=0,alimiter=limit=0.95[m]',
          '-map','[m]','-t',str(round(duration(voice)+8,2)),'-codec:a','libmp3lame','-b:a','160k',str(out)]
     subprocess.run(cmd,check=True)
 
 def duration(audio):
-    return float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nokey=1:noprint_wrappers=1',str(audio)],text=True).strip())
+    # Decode as well as probing: validate every generated MP3 without a second binary.
+    result=subprocess.run([FFMPEG,'-hide_banner','-i',str(audio),'-f','null','-'],capture_output=True,text=True,check=True)
+    match=re.search(r'Duration: (\d+):(\d+):(\d+\.\d+)',result.stderr)
+    if not match:raise RuntimeError('Could not determine audio duration')
+    hours,minutes,seconds=map(float,match.groups())
+    return hours*3600+minutes*60+seconds
 
 def main():
     demo='--demo' in sys.argv
-    for executable in ('ffmpeg','ffprobe'):
-        import shutil
-        if not shutil.which(executable):raise RuntimeError(f'{executable} is required before generating paid speech')
+    subprocess.run([FFMPEG,'-version'],check=True,stdout=subprocess.DEVNULL)
     if '--prepare-only' not in sys.argv and not demo and (not os.getenv('ELEVENLABS_API_KEY') or not os.getenv('ELEVENLABS_VOICE_ID')):
         raise RuntimeError('Missing ElevenLabs credentials')
     music=OUT/'morning_jazz.wav';make_jazz_wav(music)
     if demo:
-        subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-y','-i',str(music),'-t','25','-codec:a','libmp3lame',str(OUT/'jazz_preview.mp3')],check=True)
+        subprocess.run([FFMPEG,'-hide_banner','-loglevel','error','-y','-i',str(music),'-t','25','-codec:a','libmp3lame',str(OUT/'jazz_preview.mp3')],check=True)
         print('Preview ready:',OUT/'jazz_preview.mp3');return
     w=weather();news=headlines();market_data=markets()
     if not news:raise RuntimeError('뉴스 피드를 가져오지 못해 오래된 브리핑 덮어쓰기를 중단합니다.')
@@ -351,6 +356,9 @@ def main():
         print(script);return
     voice=OUT/'voice.mp3';voice_tts(script,voice)
     mix(voice,music,OUT/'latest.mp3')
+    normalized=OUT/'normalized.mp3'
+    subprocess.run([FFMPEG,'-hide_banner','-loglevel','error','-y','-i',str(OUT/'latest.mp3'),'-af','loudnorm=I=-18:TP=-1.5:LRA=9','-ar','44100','-codec:a','libmp3lame','-b:a','160k',str(normalized)],check=True)
+    normalized.replace(OUT/'latest.mp3')
     print('Generated:',OUT/'latest.mp3', 'duration:',duration(OUT/'latest.mp3'))
 
 if __name__=='__main__':main()
