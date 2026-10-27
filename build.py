@@ -82,6 +82,14 @@ def spoken_month(month):
 def spoken_hour(hour):
     return ('오전 ' if hour<12 else '오후 ')+{1:'한',2:'두',3:'세',4:'네',5:'다섯',6:'여섯',7:'일곱',8:'여덟',9:'아홉',10:'열',11:'열한',12:'열두'}[hour%12 or 12]+' 시'
 
+def spoken_counter(value):
+    value=int(value)
+    if not 0<value<100:return korean_integer(value)
+    if value==20:return '스무'
+    tens=('', '열','스물','서른','마흔','쉰','예순','일흔','여든','아흔')
+    ones=('', '한','두','세','네','다섯','여섯','일곱','여덟','아홉')
+    return tens[value//10]+ones[value%10]
+
 def speech_text(text):
     # Write acronyms and numbers as they should be spoken, before calling TTS.
     for old,new in [('S&P 500','에스앤피 오백'),('S&P500','에스앤피 오백'),('SK하이닉스','에스케이하이닉스'),('SK 하이닉스','에스케이하이닉스'),('SNS','에스엔에스'),('GPU','지피유'),('GPT','지피티'),('MNP','엠엔피'),('AI','에이아이')]:
@@ -93,6 +101,9 @@ def speech_text(text):
     text=text.replace('·',', ')
     text=text.replace('↑',' 상승 ').replace('↓',' 하락 ').replace('%','퍼센트')
     text=re.sub(r'(?<=\d),(?=\d)','',text)
+    text=re.sub(r'(?<![\d.])(\d+)(여?)(명|개|마리|살)(?=$|[\s,.!?이가은는을와과에])',
+                lambda m:(korean_integer(m[1]) if m[2] else spoken_counter(m[1]))+m[2]+' '+m[3],text)
+    text=re.sub(r'(\d+)\s*(단계|년)',lambda m:korean_integer(m[1])+' '+m[2],text)
     def read_number(match):
         token=match.group()
         return spoken_number(token,len(token.partition('.')[2])) if '.' in token else korean_integer(token)
