@@ -26,6 +26,8 @@ class RadioTests(unittest.TestCase):
         self.assertEqual(build.movement(-0.004), '보합입니다')
         self.assertEqual(build.subject('수이'), '수이는')
         self.assertEqual(build.subject('비트코인'), '비트코인은')
+        self.assertEqual(build.speech_text('30대 1명 부상, 대응 1단계'), '삼십대 한 명 부상, 대응 일 단계')
+        self.assertEqual(build.speech_text('20명 대피'), '스무 명 대피')
 
     def test_script_has_one_weather_and_required_markets_without_ordinals(self):
         weather={'신도림':{'현재기온':3.6,'최저기온':1.9,'최고기온':10.9,'최대강수확률':0}}
