@@ -32,7 +32,7 @@
 
 ## 3. 음악과 테스트
 
-`python build.py --demo`를 실행하면 합성 모닝 재즈 25초 테스트 파일 `output/jazz_preview.mp3`가 만들어집니다. 실제 ElevenLabs 음성 믹스는 API 키 입력 후 `python build.py`로 생성합니다. Python 3.11+, `ffmpeg`, `ffprobe`, `pip install -r requirements.txt` 필요.
+`python build.py --demo`를 실행하면 합성 모닝 재즈 25초 테스트 파일 `output/jazz_preview.mp3`가 만들어집니다. 실제 ElevenLabs 음성 믹스는 API 키 입력 후 `python build.py`로 생성합니다. Python 3.11+와 `pip install -r requirements.txt` 필요. FFmpeg는 파이썬 패키지에 포함되어 설치되므로 별도 apt 설치나 ffprobe가 필요하지 않습니다. 믹싱과 음량 보정도 `build.py`에서 수행합니다.
 
 ## 기능 및 주의
 
