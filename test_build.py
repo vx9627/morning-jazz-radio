@@ -3,9 +3,22 @@ from datetime import datetime
 from unittest.mock import patch, Mock
 from zoneinfo import ZoneInfo
 import build
+import subprocess
+import tempfile
+from pathlib import Path
 
 
 class RadioTests(unittest.TestCase):
+    def test_bundled_audio_tools_decode_and_mix_real_mp3(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            voice=root/'voice.mp3';music=root/'music.wav';out=root/'mixed.mp3'
+            subprocess.run([build.FFMPEG,'-v','error','-y','-f','lavfi','-i','sine=frequency=440:duration=1','-codec:a','libmp3lame',str(voice)],check=True)
+            build.make_jazz_wav(music,seconds=2)
+            build.mix(voice,music,out)
+            self.assertAlmostEqual(build.duration(voice),1.04,delta=0.08)
+            self.assertAlmostEqual(build.duration(out),9.04,delta=0.08)
+
     def test_numbers_are_written_for_korean_speech(self):
         self.assertEqual(build.korean_integer(107375000), '일억 칠백삼십칠만 오천')
         self.assertEqual(build.spoken_number(-3.6), '영하 삼 점 육')
