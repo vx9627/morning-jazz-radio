@@ -1,28 +1,20 @@
 {
-  "generated_at": "2026-10-28T03:20:39.859466+09:00",
+  "generated_at": "2026-10-28T03:46:47.675366+09:00",
   "weather": {
     "신도림": {
-      "현재기온": 3.6,
+      "현재기온": 3.7,
       "현재강수mm": 0.0,
       "날씨코드": 0,
-      "최고기온": 10.9,
-      "최저기온": 1.9,
-      "최대강수확률": 0
-    },
-    "부천": {
-      "현재기온": 2.5,
-      "현재강수mm": 0.0,
-      "날씨코드": 0,
-      "최고기온": 10.6,
-      "최저기온": 0.5,
+      "최고기온": 11.3,
+      "최저기온": 2.3,
       "최대강수확률": 0
     }
   },
   "articles": [
     {
       "분야": "주요뉴스",
-      "제목": "‘강남 판자촌’ 구룡마을 화재로 주민 100여명 집 잃어…대응 1단계로 하향 - 한겨레",
-      "발행": "Tue, 27 Oct 2026 16:31:00 GMT",
+      "제목": "서울 강남 구룡마을 화재에 107명 이재민·30대 1명 부상…대응 1단계로 - 한겨레",
+      "발행": "Tue, 27 Oct 2026 14:59:00 GMT",
       "출처": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WT21Ob2pENUpfeEtUcDM5RE0xQ1ltbGhaSGFoVEZXWlJnXzJDMEVMQXdkMXFfeUc5SjhwTFFwQW11aFFQdzAwUjctcjYwNDBVQ1BOYjBYZmlFUGM2ZjJZeEFSNmV2RkloSVhabHBhS0psUQ?oc=5"
     },
     {
@@ -33,27 +25,21 @@
     },
     {
       "분야": "주요뉴스",
+      "제목": "김건희 추가 구속영장 발부…“尹 깨끗한 사람” 호소했으나 구속 상태 유지 - 중앙일보",
+      "발행": "Tue, 27 Oct 2026 07:53:03 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44V1hSNTRKenlqc01EM0l5bXctQnJOUUFSZFZqeDRKUlhUcVJidUc1YkRDWmt1S2xPVGJsMDJWZHN3NTBCT1pYRlhSLVFLVk9DT0Y4RjJB?oc=5"
+    },
+    {
+      "분야": "주요뉴스",
       "제목": "구로구 주택가 시신 유기한 남성 2명 체포…빌라주인 등(종합) - 연합뉴스",
       "발행": "Tue, 27 Oct 2026 09:01:22 GMT",
       "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OSWtwRFc1eUxrNlRRU1FMSGhuTFpPMDE5eExUZEJpTlBlcThveE8xTTBVUWZTR3gwSEMtblFncVdBVmFNNWRnM0pSS2tBV21nWGc4U010YzJxZzjSAWBBVV95cUxOWkdDS2FLNF90QlJpNmRrX3ZieDhrcUc0MzVydUhLYmZzT2pkN1ROTHdBRjVXem92Z1YwZi1XdEJxZUd5REJfTFZoZ2NsTDBqSGlrS2h1UjhoSllIMFJzdkM?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "[날씨] '올 가을 가장 추운 날' 아침 기온 뚝↓ ...강풍.한파특보 발효지역은? - 헤드라인제주",
-      "발행": "Tue, 27 Oct 2026 13:26:50 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rdzVCRF9hcW53SXRjbG9YREFDS2hOVDZGbTFDZDNyemF5NWE3d1hpY1RjeDJza2x4dzNiczJROTMxWl9UZzUzSURZdThiNk8xZ1pQTEhRaEZzSmRDY28yS2NkOFVHRzRRbUlBTHFlcDd4cWs?oc=5"
-    },
-    {
-      "분야": "주요뉴스",
-      "제목": "\"모든 것의 끝 아냐\"... 김건희 추가 구속에 변호인이 남긴 말 - OhmyNews",
-      "발행": "Tue, 27 Oct 2026 02:00:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5IN0F3V0s2aFJFblUwaWdERmpHUHpVZGlidTd2NEg3QUJ6ekJ3anB2VGNpQjF4aFR2RDQ1eTU4QjAtTXR1RngwLVRnSnVyRFZsWmd1OENtSFBCNzhFZW1oNDN5ZjVpTFJiaWFzRWZ1T1YyMWdOYXVj?oc=5"
-    },
-    {
-      "분야": "주요뉴스",
-      "제목": "초유의 대법원장 국정조사... 민주당, 의총서 밀어붙였다 - 조선일보",
-      "발행": "Tue, 27 Oct 2026 09:37:09 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFByYXkxMWc2cF9CbmJkR3BQZVlMYk8yZk1ZeXp3UVpmLUg0VUU4aWVIU19MdWt3bkVuUDZrM3F6UlFzc2s4WUxrOFFrcGp6aVFJQ2xPWWgwc2lWNFZrd2YwdWRUOWdNRV9nYWhrbU1POTR1SWgzYW1TMTRhcUhIc1NRYXN3dWhtSkI5a2hqWDE?oc=5"
+      "제목": "오세훈 축하연서 이준석 “‘오’뚝이처럼” 삼행시…윤상현 “비행기” 건배사 - 한겨레",
+      "발행": "Tue, 27 Oct 2026 16:33:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41MllEcUJ0MGRBQWFHd09uZmxvYXRKeEZibmxRemJzamt3VGtmMjFXcE12U2w0NHB2YWpjaENlMnJhVmJxTElpcl9uRnkxcVNsVDRROUJfVTI2RFhObWh5cFNUbUtrdnRKdnpjUFpHOXYxYXlf?oc=5"
     },
     {
       "분야": "주요뉴스",
@@ -63,21 +49,21 @@
     },
     {
       "분야": "주요뉴스",
-      "제목": "이건 가짜!…김포 애기봉 스벅 ‘북 자주포 뷰’ 사진은 AI 합성 - 한겨레",
-      "발행": "Tue, 27 Oct 2026 11:37:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RcEpTSHlUV185U2s0UkVxWkdBeGcxLUV2N1IyQ2EzMHR3aGM4dTZXR0hhRmgwb3pjUDBteENRbU9CWFo0clhaak1mT0lpTFlzT3VQQ2pQTnJfc3U2OURVSEFvcUt2SXJV?oc=5"
+      "제목": "유명 ‘픽스터’로 회원 유치…4,900억 원대 도박사이트 운영 일당 검거 - KBS 뉴스",
+      "발행": "Tue, 27 Oct 2026 08:14:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YU2dSbVBFUm4xZUFaREl4cTdvYlJfU3pCek5WVl9fTVZZU0hjd0lKcExadC1zT282SThfQXA2YkkwRXAyb0JnVzkwYzByTlhoVVJ3X2U5WnpKYnpPUndSaWVxSTlGdw?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "주진우 \"대통령 부부 골프행보, 특별감찰관이 감찰 나서야\" - MBC 뉴스",
-      "발행": "Tue, 27 Oct 2026 02:36:51 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Vem5OTWJ2Z3dXR3BXZTZpNC1ZLVByLV9aTlhBSVFGVGFFUWtWSWVXY1FaVmVPeXA5NTBiVFFJMVFjSFJhSW93dFQtU2JEakJnT21GUU9QR216QndPSVVSSW1GdXhWMHhNcXE5cmt0Q2ZERFM4cG9jbtIBeEFVX3lxTE5BUlVPWkdWblZWazVrTEZPOHE0VFdOWjBpS1BtSVAwcUdESGdZSHhMdmJ1SDc2a0N3VXUydGR6VFN0THJfamVsc2dneWtVNXBLQ1dPVjhJbVhIQmN4S1J4WGdCR0pRQTNQakNZTFQ2NndNWTBDUVNaWA?oc=5"
+      "제목": "혁신당, 여당 '조희대 국정조사'에 \"탄핵도 동시 추진해야\" - MBC 뉴스",
+      "발행": "Tue, 27 Oct 2026 11:43:52 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SS2M5dmx5SUs0N1owTm9qR3VzcDk2WDFuUDJLWF9IRWpRaTctazlja2xmNDhhYThLN29YcFZxT3JYVWpSNVBPNU9IbkxGN2RUQTBVUVJqeWRxb2xIT3NtN0RreUN5WkxXX2ViY3hFMWlaejhaVnVxMtIBeEFVX3lxTE5tTTN3X1JqR3VtQkxGMWdGSFl5NHIyYjBzZ1k0bU5tTHNHZUZsTUw3M3FIQnJ5TnpNaUtJeEd5ZWtQMDk5YmZxTS1YSGpSODBZNC1rdU96S2RMRGRKOGo1eVI1bTRKMXczaHFxUHpNcnRJS2xzRDhodw?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "선관위 특검, 올림픽공원 보관 서류·CCTV 압수수색…\"현장 검증 전 자료 확보\" - 연합뉴스TV",
-      "발행": "Tue, 27 Oct 2026 01:24:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uRDVHcllyMjBSZi1RQXN1cVBXUmJfUjdGd2I3TlpTTVhJekJTQnZiVXEzTmI3Mm9sbEQtNHp3UjJDNjJWMGhzMVBGZmhwUHJtWGtfUEt4M25XbURCV0h3bGIzNTl2ams?oc=5"
+      "제목": "강신철 “北과 전쟁시 미군 믿을 수 있나” 전작권 전환 신중론 반박 - 동아일보",
+      "발행": "Mon, 26 Oct 2026 19:30:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QOTFoWEYwUjgtcTZ3NjdDUzJlc0hNUWZDREczRzc3UFlfb2xVcmRTcS1DWC1lNm1VQzZqclgzZ1JOT1B1REFFdldTTW4zMWZPQlBpNEZsVndXZG9rcE4xMmppM0ZqV3V0SlJENFhQT1lQOFF6Q3R30gFmQVVfeXFMTTNXbUZPMnY1bzF2Umc4MmZ4aHBCM2RZaUZoMDdoeXo2andsdi1EVS1YNzFLS05ZNTNfMGJMWUUwWE1mcXh2dlF6dTFhd1VDOGJKUDFVMXlJa2RtTDVwZkQ0V3kzQ2hn?oc=5"
     },
     {
       "분야": "국제",
@@ -93,15 +79,15 @@
     },
     {
       "분야": "국제",
-      "제목": "보우소나루, 브라질 대선 불복 철회‥'트럼프 손절'에 백기 - MBC 뉴스",
-      "발행": "Tue, 27 Oct 2026 07:26:10 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zQVBtOXlaelc4WGVBR2k3UDA0UkE0VDd1Z2hWMWU4TFljOWtKSG11Y2Q4T0RVdFQ5SG5IdnpjZDR0NUpsVEpmemdfWTBnbGNxRkJPWEQ2Rlh4anNiMjBxbWVBOGFUaFJXZjcxZFBjWFBvUnEw0gF0QVVfeXFMT2FtUk9ZNWtwVGl6Vlc5Rl90VlJXTjloZjNtS29zTlQxc1laRHozcHBKNGd1LUl2N29nV1ZScVlJSTU0d0ExWmZacWp1WHVUcXF4LVdMbDVwNVF0M0VFYm01Z0pBVlZxU21fRS1XUTBseDB6WFE?oc=5"
-    },
-    {
-      "분야": "국제",
       "제목": "국지휴전 개시한 러·우크라…다른 곳에선 맞불 타격 - 연합뉴스TV",
       "발행": "Tue, 27 Oct 2026 08:58:00 GMT",
       "출처": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CN1RPX3JaTUhidGRLLXdJYmRsQXA3TE9PeVB2bmtxNno3QUxuQ1A1OW1MenJsczZ4WVdlWWdmY19wMXhOTDltN1hOUUFTRGZ3dUlhaFRRQmpVOGp5SGtvTEpCYldHMGM?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "보우소나루, 브라질 대선 불복 철회‥'트럼프 손절'에 백기 - MBC 뉴스",
+      "발행": "Tue, 27 Oct 2026 07:26:10 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zQVBtOXlaelc4WGVBR2k3UDA0UkE0VDd1Z2hWMWU4TFljOWtKSG11Y2Q4T0RVdFQ5SG5IdnpjZDR0NUpsVEpmemdfWTBnbGNxRkJPWEQ2Rlh4anNiMjBxbWVBOGFUaFJXZjcxZFBjWFBvUnEw0gF0QVVfeXFMT2FtUk9ZNWtwVGl6Vlc5Rl90VlJXTjloZjNtS29zTlQxc1laRHozcHBKNGd1LUl2N29nV1ZScVlJSTU0d0ExWmZacWp1WHVUcXF4LVdMbDVwNVF0M0VFYm01Z0pBVlZxU21fRS1XUTBseDB6WFE?oc=5"
     },
     {
       "분야": "국제",
@@ -123,15 +109,15 @@
     },
     {
       "분야": "국제",
-      "제목": "트럼프 \"이란전쟁 곧 끝날 것…휴전 시간낭비였다\" - 한국경제",
-      "발행": "Tue, 27 Oct 2026 01:54:31 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1MC1QNjd6UVVkWnVleFBzTEFDYVF4bExmaUNMQ1M5ZU93cEhrVk45ODlRaGt4Sjc3X2hxUzNPeC1HVmRIcl9sYlMyZlViUzZSXzRDN3QwMkhxZw?oc=5"
-    },
-    {
-      "분야": "국제",
       "제목": "中 5중전회, 중앙위원 대거 퇴출 주목, 류젠차오 강등설도 - 뉴스핌",
       "발행": "Mon, 26 Oct 2026 23:03:00 GMT",
       "출처": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0VTZGa0lyRmJlUDVQYVNURVBIa2pzRUk2aEx4dVBVQjRqSmVob3ZIZTc3SjdsV3NqaktoNDNIbjA3QXdtdDNvOTY3ZTFpX3FfNWxoWUFHWVdnd2Zu?oc=5"
+    },
+    {
+      "분야": "국제",
+      "제목": "트럼프 \"이란전쟁 곧 끝날 것…휴전 시간낭비였다\" - 한국경제",
+      "발행": "Tue, 27 Oct 2026 01:54:31 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1MC1QNjd6UVVkWnVleFBzTEFDYVF4bExmaUNMQ1M5ZU93cEhrVk45ODlRaGt4Sjc3X2hxUzNPeC1HVmRIcl9sYlMyZlViUzZSXzRDN3QwMkhxZw?oc=5"
     },
     {
       "분야": "국제",
@@ -153,15 +139,27 @@
     },
     {
       "분야": "비즈니스",
+      "제목": "앤트로픽 상장 서류 보니… ‘25배 투자 대박’ SK텔레콤, 구글보다 싸게 샀다 - Chosunbiz",
+      "발행": "Tue, 27 Oct 2026 08:18:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdWJaMG9yTXVhZGhUenRkS3VsazFUNTI3OUVqcThORjNIclBaaUl6c0ZLSWU1NlBCblkwVmpId1Y0OUM3aEFRaTZuaVQ4aTJtMDROZmpUeUwwUlFvYWM5ajhkd1pUU2I3UDhXQTRqQWEtVVlUR0hKanNlbnRsbFljT3F30gGWAUFVX3lxTFBCb09DVm5ZQ0NDaEFEdzRkYTFOUVNEWHRHcG9ma2d1ZllFeGY4NWV3c2JJcTFpVFppbnVCV2o0Qm5vLVRUMm5HTHgyWG9hNmVJSzRaQmJ3RThPU05LZWtjb1JESmRkTVVYNnh4Rm9DLWkxYUhIalIwRi1tSkhGWk85c1hBbV9qYkxpdy1pRTQyeV9zN1JLQQ?oc=5"
+    },
+    {
+      "분야": "비즈니스",
       "제목": "민주당, 오늘 당정 협의서 가상자산 과세 ‘유예’ 논의 - KBS 뉴스",
       "발행": "Tue, 27 Oct 2026 16:02:00 GMT",
       "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PZy1MMXVoS0plU2JVZEtCZ3RqTVBnNElCZzd3T1FDcm9ScGFPaUhaSjNDRVR4LTNDR1FoU2FheDFjc0swWlhGcGcyUV9OSzdUNndQZFlhekw2clU?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "코스피 4% 급등에 매수 사이드카…“앤트로픽 매출 1300% 증가” - 한겨레",
-      "발행": "Tue, 27 Oct 2026 07:10:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDSzdJOE9YU2FXcVNlVkRNNTZ0NFdZSmFBQW1NWmNhTURaZ3A0a3BuS0czcWsxbWp1VkoxNGlOU3JxWmVEZjgycEYyS21jbW1tbHh2d3hsLTY0RXFaQmh4NFVLNUJ1LVE?oc=5"
+      "제목": "'단일종목 레버리지' 외국인은 싹 털었네 - 매일경제",
+      "발행": "Tue, 27 Oct 2026 08:38:24 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFaG4yMU41ZjlBbktEbjFFUEx4ZkRXbl8tMDY3QnVuWlBVTzRWSWliU1ppd2xOYWFUOVdjZkFPc0hBd09ydFNONzh6NGpsY0ZvUnc?oc=5"
+    },
+    {
+      "분야": "비즈니스",
+      "제목": "한미약품, 3분기 연결 매출 3774억원·누적 1조2376억원 - MEDI:GATE NEWS",
+      "발행": "Tue, 27 Oct 2026 08:33:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13SWdFYTZOYnNSNFhiVUE0bGxNZFNMcm5CTzd4WUQ3c0NKblJCVjNVN01NWmg0NmxWRWNHVVJKQ0NNYWd0SnU4MTh1cHNUaVRpTld6ejl6NA?oc=5"
     },
     {
       "분야": "비즈니스",
@@ -177,21 +175,9 @@
     },
     {
       "분야": "비즈니스",
-      "제목": "'단일종목 레버리지' 외국인은 싹 털었네 - 매일경제",
-      "발행": "Tue, 27 Oct 2026 08:38:24 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFaG4yMU41ZjlBbktEbjFFUEx4ZkRXbl8tMDY3QnVuWlBVTzRWSWliU1ppd2xOYWFUOVdjZkFPc0hBd09ydFNONzh6NGpsY0ZvUnc?oc=5"
-    },
-    {
-      "분야": "비즈니스",
       "제목": "[단독] 삼전닉스, 역대급 환원 주주에 '210조+α' 푼다 - 한국경제",
-      "발행": "Tue, 27 Oct 2026 15:16:00 GMT",
+      "발행": "Tue, 27 Oct 2026 09:01:22 GMT",
       "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqanJCMk9waEVjd29BSzRfei1JZ0JrcTZpQVNacVRpaTZPVUNpWEVFWFl1T2JIZERHSjZnOVFoM2wtWUJaYmhEMl9wb0ZCSldBRG82V1c2Wi1fQQ?oc=5"
-    },
-    {
-      "분야": "비즈니스",
-      "제목": "[정책 인사이트] 국회·정부, 전기차 완성차 세액공제 포함 추진… “중국산에 대응할 필요” - Chosunbiz",
-      "발행": "Tue, 27 Oct 2026 03:59:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaHBId2h1czc2cjJRYTl4Vm1QajA3LTRhNThGeXhiZXV6YWo0SmFZeUlKeDR0dXVlZk53eVNxQ0NneGRSc3NEbTZpWGNzaUxxY0JsMXNkamlZTGxsRmUxUi1tQ3JxX2RIVDkwZDJVNEdXdTRNWG5lVndCRDRuQkcyMmJhTC0td9IBmgFBVV95cUxNYV9qZFN5MHNoVkxUZENXaDBxUjhHZi0zcDJjMmw4Vm5ER3NsdlY2QUJULXBXTXp6M2ZXd2Y2alhjbF9xdkVneE5lV0ZpaVR2cWhqcC1OUWJjeWpSWldfT0xkZFJHdnFBSkNDSTdSbUZRSnZGME1IY1hDM3ZyemNDVjBPbERNQ0RrQm9ZVkg0Zll3OEpybVNkUVpR?oc=5"
     },
     {
       "분야": "비즈니스",
@@ -210,6 +196,182 @@
       "제목": "\"40만원 하던 게 80만원\"…요즘 없어서 못 산다는 '이것' [차이나 워치] - 한국경제",
       "발행": "Mon, 26 Oct 2026 21:55:01 GMT",
       "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tYThQaVpZUDE4OWU4NndGLTAxdVpJYzRsRW9INmVIZ0FHN3NZVktLOG40ekxVSkw2VnhEV0JoRnItYllEQUQ2SWNUTjdDWkZFa3NuTGltckJaZw?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "‘몸값 2700조원’ 앤스로픽 IPO 신청…신고서엔 “AI 오용땐 재앙” - 동아일보",
+      "발행": "Tue, 27 Oct 2026 02:46:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB5aG5GQjI3VDJicXZRQW1PTnJoZThQMUN6UlJWUFZyV0dPWldMU2RadEJzQnlweFhiMk5mQlA2TWhaZ0xfbzBzeUgyWmdmY2JQTDk2VFYzQjhJLU5oMXA3ckw5RlpRdnBncHhFZ2t3SGxaOHhxaXfSAWZBVV95cUxNX3pLVHhNM0NLVmRUZzUxR0N2a3R5OGpGekdUTEd5VllBc1BWaHE3LUU5SjB1T2ExdnA1TzlKQlRjTngxZlh1VzNiS1BTUGdRT3BCUnVzSDItVGN0dXpJMG53ek9WSWc?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "[단독] 보스턴다이내믹스, 아틀라스 1만대분 부품 발주…나무가·씨티알 등 참여 - 한국경제",
+      "발행": "Tue, 27 Oct 2026 06:10:04 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43dTVFNXFnbXU5RVRubklIb0E5N19fNjFVWm5Lb2tBa0VtMHpiVzB0SlFLcV9DUndUeDJCZkRfcDVMMUZsWGZrM3VIVmFXd2Z6Xy1VcTJSRHFzdw?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "오픈AI “수학·컴퓨터과학·물리학 수십년 난제 3개 풀었다” - 한겨레",
+      "발행": "Tue, 27 Oct 2026 07:08:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QWEZFOHR5M1l3Z25NR1hBVzBkOGxrUUhvVHNCeXdjRzkzUWxUbVQ1OVlHdC00NDg4bHgyV1M2UDZBY0lPZjNDRXJReE9QbDFDZVhhSWN3Wnk1X3l5S0o1UUxlLWY1dHhCakJaQTM3UQ?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "로봇개 ‘스팟’ 이민단속 지원에 보스턴다이내믹스 직원들 반발 - 한겨레",
+      "발행": "Tue, 27 Oct 2026 09:56:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14ZlRnd2tpa0NBRGJJSWNGNElGSjZRaEM0eXk5SWY2NGxSalZKT2phMEV6WlJobTB6THA1YlBVZkw5azkwMkVSTXNYZm9QVHdBOUJEVEtWQVdyMFpKT1dZZDV3?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "리플, 美 연방은행 최종 인가 획득…월가 제도권 금융 장벽 마침내 깼다 - 글로벌이코노믹",
+      "발행": "Tue, 27 Oct 2026 05:05:18 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSXdnMnF0TnROVzhHcmp1TGp3bEVuaENYdUlJWTVjc0tBeDUzdm5PcG9WdzNYLUhmTGJSVTRsV3R6MHkzWHN2NjR2aVZwdUZQdGRjbndpcENOTW50RnFWT3MwOGF4b2tJTm5VUEVQMWhnZ3FaMzlrbjg3MVlZbWtKOUhEV2hpcVZS?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "[단독] \"AI, 중국칩만으론 불안\"… 고성능 한국 D램 구하기 '혈안' - 매일경제",
+      "발행": "Tue, 27 Oct 2026 08:44:14 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBallSTnpmVUxIUVJBT2libmdIc2c1eklwbmZYYkNuSDQyRUxiXzFyaGtkdl9KQ05MZ3BiVmh1M2hLRlNiWnNJTUdLSVhOYXlWUE8wamNR?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "애플, '아이폰 듀오' 화면결함 인정…\"문제기기 전량 무상교체\" - 이데일리",
+      "발행": "Mon, 26 Oct 2026 22:52:46 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRHVQNkUtVm1BQU94OHZFT2FxSERIekxqOWZuejQzUERPam53eW1pcEFINk9zeWN4cThTcElCSlZGbEpFb0dmc1dhRUkzSWN6YnJGTEw4cmlhWjEzUWdCSG9vNWpuRXpXS3BheGwzc1RHZTNxSjZ0ekhwaVRFaklESw?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "중국산 자율주행 장치를 테슬라에···FSD 기능 불법 활성화한 80명 검거 - 경향신문",
+      "발행": "Tue, 27 Oct 2026 03:00:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sbGtjRXRCVjZqb2NSQ09KZUNJNzRhNmYzbEhvVV93RVk4UHB3d1NIdEFJMnhUY1dwdW1YS3BHZ0FKdjdCQ21Nd3RxX2hYQllVd3lVU0FRdTIzd9IBX0FVX3lxTE9YOUNzOFZSU19FVHk2ZF9WUDRiaHB3WHJjdUswNHJMb09lcU5uUTlzVjduZHNyZ2wwcm9OeWNzWGFJU19yeEJrd0ZEa3ZoZnVjYVowSmVnLUt5MXo3eHow?oc=5"
     }
-  ]
+  ],
+  "markets": {
+    "quotes": [
+      {
+        "name": "에스앤피 오백",
+        "symbol": "^GSPC",
+        "group": "미국",
+        "price": 7718.99,
+        "change_pct": 0.5499706303736307,
+        "as_of": "2026-10-28T03:46:52+09:00",
+        "session_date": "2026-10-27",
+        "session_state": "장중",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      },
+      {
+        "name": "나스닥",
+        "symbol": "^IXIC",
+        "group": "미국",
+        "price": 26467.533,
+        "change_pct": 1.1393167542906868,
+        "as_of": "2026-10-28T03:46:49+09:00",
+        "session_date": "2026-10-27",
+        "session_state": "장중",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      },
+      {
+        "name": "다우",
+        "symbol": "^DJI",
+        "group": "미국",
+        "price": 52374.54,
+        "change_pct": 0.024754553747508012,
+        "as_of": "2026-10-28T03:46:52+09:00",
+        "session_date": "2026-10-27",
+        "session_state": "장중",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EDJI/"
+      },
+      {
+        "name": "코스피",
+        "symbol": "^KS11",
+        "group": "국내",
+        "price": 5638.34,
+        "change_pct": 3.087498030393321,
+        "as_of": "2026-10-27T20:05:40+09:00",
+        "session_date": "2026-10-27",
+        "session_state": "최근 정규장",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EKS11/"
+      },
+      {
+        "name": "코스닥",
+        "symbol": "^KQ11",
+        "group": "국내",
+        "price": 743.83,
+        "change_pct": 2.285444029258543,
+        "as_of": "2026-10-27T20:05:40+09:00",
+        "session_date": "2026-10-27",
+        "session_state": "최근 정규장",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EKQ11/"
+      },
+      {
+        "name": "삼성전자",
+        "symbol": "005930.KS",
+        "group": "종목",
+        "price": 222000.0,
+        "change_pct": 4.225352112676051,
+        "as_of": "2026-10-27T15:30:03+09:00",
+        "session_date": "2026-10-27",
+        "session_state": "최근 정규장",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/005930.KS/"
+      },
+      {
+        "name": "에스케이하이닉스",
+        "symbol": "000660.KS",
+        "group": "종목",
+        "price": 1341000.0,
+        "change_pct": 5.1764705882352935,
+        "as_of": "2026-10-27T15:30:08+09:00",
+        "session_date": "2026-10-27",
+        "session_state": "최근 정규장",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/000660.KS/"
+      },
+      {
+        "name": "비트코인",
+        "symbol": "KRW-BTC",
+        "group": "코인",
+        "price": 107469000.0,
+        "change_pct": 0.5219294600000001,
+        "as_of": "2026-10-28T03:46:29.471000+09:00",
+        "source": "Upbit",
+        "url": "https://api.upbit.com/v1/ticker",
+        "comparison": "전일 종가 대비, UTC 0시 기준"
+      },
+      {
+        "name": "이더리움",
+        "symbol": "KRW-ETH",
+        "group": "코인",
+        "price": 3126000.0,
+        "change_pct": 0.83870968,
+        "as_of": "2026-10-28T03:46:52.077000+09:00",
+        "source": "Upbit",
+        "url": "https://api.upbit.com/v1/ticker",
+        "comparison": "전일 종가 대비, UTC 0시 기준"
+      },
+      {
+        "name": "수이",
+        "symbol": "KRW-SUI",
+        "group": "코인",
+        "price": 1232.0,
+        "change_pct": 0.65359477,
+        "as_of": "2026-10-28T03:46:01.983000+09:00",
+        "source": "Upbit",
+        "url": "https://api.upbit.com/v1/ticker",
+        "comparison": "전일 종가 대비, UTC 0시 기준"
+      }
+    ],
+    "errors": []
+  },
+  "speech": {
+    "model": "eleven_multilingual_v2",
+    "speed": 0.96,
+    "stability": 0.75,
+    "chunks": 5
+  }
 }
