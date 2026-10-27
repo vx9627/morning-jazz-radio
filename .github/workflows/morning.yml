@@ -34,6 +34,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python build.py
 
+      - name: Normalize playback volume
+        run: |
+          ffmpeg -hide_banner -loglevel error -y -i output/latest.mp3 -af loudnorm=I=-18:TP=-1.5:LRA=9 -ar 44100 -codec:a libmp3lame -b:a 160k output/normalized.mp3
+          mv output/normalized.mp3 output/latest.mp3
+
       - name: Publish audio
         run: |
           git config user.name 'morning-radio-bot'
