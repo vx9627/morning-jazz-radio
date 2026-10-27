@@ -18,14 +18,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install FFmpeg
-        timeout-minutes: 4
-        run: |
-          sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 update
-          sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 install -y --no-install-recommends ffmpeg
-          ffmpeg -version
-          ffprobe -version
-
       - run: pip install -r requirements.txt
 
       - name: Verify briefing logic
@@ -37,11 +29,6 @@ jobs:
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python build.py
-
-      - name: Normalize playback volume
-        run: |
-          ffmpeg -hide_banner -loglevel error -y -i output/latest.mp3 -af loudnorm=I=-18:TP=-1.5:LRA=9 -ar 44100 -codec:a libmp3lame -b:a 160k output/normalized.mp3
-          mv output/normalized.mp3 output/latest.mp3
 
       - name: Publish audio
         run: |
