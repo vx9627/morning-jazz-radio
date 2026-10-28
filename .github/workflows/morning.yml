@@ -49,7 +49,7 @@ jobs:
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-        run: python build.py --require-ai
+        run: python build.py --require-ai ${{ github.event_name == 'workflow_dispatch' && '--use-preview' || '' }}
 
       - name: Publish draft or audio
         env:
