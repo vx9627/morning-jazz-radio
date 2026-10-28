@@ -246,6 +246,17 @@ def fallback_script(w,news,market_data):
 
 WRITER_SECTIONS=('opening','weather','news','us','korea','stocks','crypto','closing')
 TOKEN_PATTERN=re.compile(r'\{\{([a-zA-Z0-9_.]+)\}\}')
+TOKEN_WITH_PARTICLE=re.compile(r'\{\{([a-zA-Z0-9_.]+)\}\}(으로|로|은|는|이|가|을|를)?')
+
+def render_fact_token(match,tokens):
+    value=tokens[match[1]];particle=match[2]
+    if not particle or not '가'<=value[-1]<='힣':return value+(particle or '')
+    final=(ord(value[-1])-0xAC00)%28
+    if particle in ('은','는'):particle='은' if final else '는'
+    elif particle in ('이','가'):particle='이' if final else '가'
+    elif particle in ('을','를'):particle='을' if final else '를'
+    else:particle='으로' if final and final!=8 else '로'
+    return value+particle
 
 def closing_history():
     path=OUT/'closing_history.json'
@@ -330,13 +341,16 @@ def validate_writer(draft,tokens,required,articles,history):
         if numeric:
             context=masked[max(0,numeric.start()-20):numeric.start()+50]
             raise ValueError('A numeric fact bypassed substitution tokens in '+section+': '+repr(context))
-        rendered[section]=TOKEN_PATTERN.sub(lambda m:tokens[m[1]],text)
+        rendered[section]=TOKEN_WITH_PARTICLE.sub(lambda m:render_fact_token(m,tokens),text).replace('보합하여','보합을 보이며')
         if '{{' in rendered[section] or '}}' in rendered[section]:raise ValueError('Unresolved fact token')
     script='\n\n'.join(rendered[s] for s in WRITER_SECTIONS)
     if not rendered['opening'].startswith('정기님, 좋은 아침이에요.'):raise ValueError('Personal greeting missing')
     if not 500<=len(script)<=2800:raise ValueError('Radio script length outside bounds')
     if re.search(r'(?:첫|두|세|네|일|이|삼|사)\s*번째',script):raise ValueError('Numbered narration is not allowed')
     if len(set(re.findall(r'예요|네요|죠|볼까요|게요|는데요',script)))<2:raise ValueError('Radio tone is too repetitive')
+    formal=len(re.findall(r'(?:습니다|입니다|됩니다)[.!?]',script))
+    friendly=len(re.findall(r'(?:어요|아요|예요|에요|네요|죠|게요|까요|데요)[.!?]',script))
+    if formal>friendly:raise ValueError('Use more conversational sentences than formal report-style endings')
     if '정기님' not in rendered['closing'] or not 25<=len(rendered['closing'])<=220:raise ValueError('Invalid personal closing')
     if re.search(r'(퍼센트|포인트|[0-9])',rendered['closing']):raise ValueError('Closing contains market facts')
     today=next((e['closing'] for e in reversed(history) if e['date']==NOW.date().isoformat()),None)
@@ -386,6 +400,13 @@ def script_with_gemini(w,news,market_data,require_ai=False):
             'opening은 반드시 정기님, 좋은 아침이에요. 로 시작하고 {{date}}를 포함하라. closing은 일상적인 응원 두세 문장과 정기님 이름, 최근 마무리와 다른 내용. '
             '오늘 이미 방송한 마무리가 recent_closings에 있으면 그 날짜의 문구를 그대로 재사용하라. 그 외 최근 삼십 회 문구와 유사하게 쓰지 마라. '
             '기사 제목 기준이라는 점은 뉴스 시작에 짧게 밝히되 기술적 설명은 하지 마라. 말끝만 예요로 바꾸지 말고 질문형·연결형·서술형을 자연스럽게 섞어라.')
+        instruction+=(' 각 뉴스는 별도 짧은 문단으로 나누고 news 문자열 안에서 빈 줄로 구분하라. '
+            '시장 구간을 국내 증시 상황입니다, 주요 종목 동향입니다, 가상자산 시세를 정리해드립니다 같은 보고서형 제목으로 시작하지 마라. '
+            '국내 시장으로 눈을 돌려볼까요, 삼성전자와 하이닉스도 함께 챙겨볼게요, 끝으로 코인 시장도 잠깐 살펴보죠처럼 자연스럽게 이어가라. '
+            '특히 시장 원고 전체를 상승했습니다, 기록하고 있습니다로 반복해서 마무리하지 마라. '
+            '전체 문장의 절반 이상은 어요/예요/네요/죠/게요/볼까요 같은 구어체로 자연스럽게 끝내라. 숫자를 읽은 뒤에도 연결 문장으로 묶어라. '
+            '기사에 명시되지 않은 하향/상향, 원인, 전망, 전문가의 추가 발언은 만들어 넣지 마라. '
+            '날씨 조언은 상황에 맞게 짧게, 강수 확률이 낮아도 비가 절대 오지 않는다고 단정하지 마라.')
         payload_data={'source_data':data,'fact_tokens':tokens,'required_tokens_by_section':{k:sorted(v) for k,v in required.items()},'recent_closings':history,'broadcast_date':NOW.date().isoformat()}
         schema={'type':'object','properties':{**{s:{'type':'string'} for s in WRITER_SECTIONS},'news_ids':{'type':'array','items':{'type':'integer'}}},'required':[*WRITER_SECTIONS,'news_ids']}
         feedback=''
