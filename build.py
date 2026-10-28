@@ -348,7 +348,7 @@ def gemini_model(key):
     if not response.ok:raise RuntimeError(f'Gemini model discovery failed: HTTP {response.status_code}')
     available={m['name'].removeprefix('models/') for m in response.json().get('models',[]) if 'generateContent' in m.get('supportedGenerationMethods',[])}
     # Legacy models can remain listed while rejecting a newly-created API key.
-    for name in ('gemini-3.8-flash','gemini-3.6-flash','gemini-3.5-flash','gemini-3.1-flash-lite','gemini-2.5-flash'):
+    for name in ('gemini-3.6-flash','gemini-3.8-flash','gemini-3.5-flash','gemini-3.1-flash-lite','gemini-2.5-flash'):
         if name in available:return name
     raise RuntimeError('No supported stable Gemini Flash model available')
 
