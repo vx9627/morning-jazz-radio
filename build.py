@@ -319,13 +319,17 @@ def validate_writer(draft,tokens,required,articles,history):
     if not isinstance(used,list) or not used or any(type(i)!=int or not 0<=i<len(articles) for i in used):raise ValueError('Invalid news references')
     rendered={};all_used=set()
     for section in WRITER_SECTIONS:
-        text=draft[section].strip();names=set(TOKEN_PATTERN.findall(text));all_used|=names
+        text=draft[section].strip().replace('S&P 500','에스앤피 오백').replace('S&P500','에스앤피 오백')
+        names=set(TOKEN_PATTERN.findall(text));all_used|=names
         if names-set(tokens):raise ValueError('Unknown fact token')
         if required[section]-names:raise ValueError('Missing required fact tokens in '+section)
         if section!='news' and any(name.startswith('n') and name[1:2].isdigit() for name in names):raise ValueError('News number outside news section')
         if section=='news' and any(name.startswith('n') and int(name.split('.')[0][1:]) not in used for name in names):raise ValueError('Unreferenced news number')
         masked=TOKEN_PATTERN.sub('',text)
-        if re.search(r'\d',masked):raise ValueError('A numeric fact bypassed substitution tokens')
+        numeric=re.search(r'\d',masked)
+        if numeric:
+            context=masked[max(0,numeric.start()-20):numeric.start()+50]
+            raise ValueError('A numeric fact bypassed substitution tokens in '+section+': '+repr(context))
         rendered[section]=TOKEN_PATTERN.sub(lambda m:tokens[m[1]],text)
         if '{{' in rendered[section] or '}}' in rendered[section]:raise ValueError('Unresolved fact token')
     script='\n\n'.join(rendered[s] for s in WRITER_SECTIONS)
