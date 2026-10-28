@@ -4,9 +4,21 @@ on:
   schedule:
     - cron: '15 22 * * *'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'preview: 대본만 검토 / audio: 음성 생성'
+        type: choice
+        default: preview
+        options:
+          - preview
+          - audio
 
 permissions:
   contents: write
+
+concurrency:
+  group: morning-radio
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -23,16 +35,33 @@ jobs:
       - name: Verify briefing logic
         run: python -m unittest -v test_build.py
 
+      - name: Draft radio script only
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'preview'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python build.py --prepare-only --require-ai
+
       - name: Generate radio MP3
+        if: github.event_name == 'schedule' || inputs.mode == 'audio'
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python build.py
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python build.py --require-ai
 
-      - name: Publish audio
+      - name: Publish draft or audio
+        env:
+          RADIO_PREVIEW: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'preview' }}
         run: |
           git config user.name 'morning-radio-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add output/latest.mp3 output/latest.txt output/sources.json
-          git diff --cached --quiet || (git commit -m "Update morning radio" && git push)
+          if [ "$RADIO_PREVIEW" = 'true' ]; then
+            git add output/preview.txt output/preview_sources.json
+            message='Update radio script preview'
+          else
+            git add output/latest.mp3 output/latest.txt output/sources.json output/closing_history.json
+            message='Update morning radio'
+          fi
+          git diff --cached --quiet || (git commit -m "$message" && git push)

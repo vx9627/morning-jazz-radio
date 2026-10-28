@@ -1,6 +1,6 @@
 # AI 모닝 재즈 라디오 — iPhone 자동 음성 브리핑
 
-매일 07:15 KST 무렵 GitHub Actions가 신도림 날씨와 Google News RSS를 수집합니다. 미국·국내 주식과 업비트 원화 코인 시세를 조회합니다. 선택적으로 Gemini API로 뉴스 문장을 다듬고, ElevenLabs API에서 한국어 음성을 짧은 구간으로 나누어 생성하여 오리지널 재즈 BGM과 믹싱합니다. 최종 `output/latest.mp3`를 저장하고, iPhone 단축어가 매일 08:00에 URL에서 파일을 받아 재생합니다.
+매일 07:15 KST 무렵 GitHub Actions가 신도림 날씨와 Google News RSS를 수집합니다. 미국·국내 주식과 업비트 원화 코인 시세를 조회합니다. Gemini API로 정기님을 위한 DJ형 전체 대본을 작성하고, ElevenLabs API에서 한국어 음성을 짧은 구간으로 나누어 생성하여 오리지널 재즈 BGM과 믹싱합니다. 최종 `output/latest.mp3`를 저장하고, iPhone 단축어가 매일 08:00에 URL에서 파일을 받아 재생합니다.
 
 ## 1. 계정 준비
 
@@ -43,3 +43,13 @@
 - ElevenLabs 음성 사용 시 API 크레딧이 소모됩니다. 서비스 사용량/요금제를 점검하세요.
 - 공개 저장소가 부담된다면 개인 서버/비공개 인증 미디어 저장소 방식으로 수정해야 합니다.
 - 출력 파일이 지난날 것인지 확인하려면 `output/sources.json`의 `generated_at` 필드를 확인하세요. 재생 전 날짜를 검사하는 추가 단축어를 만드는 것도 가능합니다.
+
+## DJ형 대본 검토와 방송 생성
+
+- `RADIO_STYLE.md`의 확정한 인사·톤·마무리 지침을 읽어 **전체** 원고를 작성합니다. `GEMINI_API_KEY`를 GitHub Actions Secret에 등록해야 합니다.
+- 수동 `Run workflow`의 기본값은 `preview`입니다. 이 모드는 Gemini만 호출하며 ElevenLabs 키는 전달하지 않습니다. `output/preview.txt`와 `output/preview_sources.json`만 게시합니다.
+- `python build.py --prepare-only --require-ai`로 원고만 생성합니다. API 오류나 원고 검증 실패를 기본 원고 성공으로 숨기지 않습니다.
+- 사용자가 원고를 확인한 뒤 수동 모드를 `audio`로 선택하면 음성을 생성합니다. 기존 매일 07:15 KST 예약은 방송 생성 모드로 유지됩니다.
+- 원고는 가격·등락률·기준 시각을 사실 토큰으로 삽입합니다. 필수 종목 누락·알 수 없는 토큰·토큰을 우회한 숫자·인사 누락·최근 끝인사 반복을 검사합니다. 뉴스 내용의 의미가 원자료를 벗어나지 않는지 검토도 필요합니다.
+- `output/closing_history.json`은 최근 30회 방송 마무리를 기록합니다. 대본 검토는 이력을 변경하지 않습니다. 당일 음성을 다시 만들 때는 같은 마무리를 사용합니다.
+- 기본 모델이 새 키에서 제공되지 않을 수 있어, API에서 사용 가능한 안정 버전 Flash 모델을 확인합니다. 모델을 고정하려면 GitHub Actions Variable에 `GEMINI_MODEL`을 등록하세요. 실제 사용 모델은 sources의 writer.model에 남깁니다.
