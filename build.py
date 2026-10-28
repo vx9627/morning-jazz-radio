@@ -515,6 +515,18 @@ def duration(audio):
     hours,minutes,seconds=map(float,match.groups())
     return hours*3600+minutes*60+seconds
 
+def saved_preview():
+    script=(OUT/'preview.txt').read_text(encoding='utf-8').strip()
+    metadata=json.loads((OUT/'preview_sources.json').read_text(encoding='utf-8'))
+    created=datetime.fromisoformat(metadata['generated_at'])
+    age=(NOW-created).total_seconds()
+    if age<0 or age>7200:raise ValueError('Preview is older than two hours; create a fresh preview first')
+    if not script.startswith('정기님, 좋은 아침이에요.') or metadata['writer']['engine']!='gemini':
+        raise ValueError('Missing validated AI preview')
+    speech_chunks(script)
+    draft=dict(metadata['writer'],script=script)
+    return draft,metadata
+
 def main():
     demo='--demo' in sys.argv
     preview='--prepare-only' in sys.argv
@@ -525,12 +537,19 @@ def main():
         music=OUT/'morning_jazz.wav';make_jazz_wav(music)
         subprocess.run([FFMPEG,'-hide_banner','-loglevel','error','-y','-i',str(music),'-t','25','-codec:a','libmp3lame',str(OUT/'jazz_preview.mp3')],check=True)
         print('Preview ready:',OUT/'jazz_preview.mp3');return
-    w=weather();news=headlines();market_data=markets()
-    if not news:raise RuntimeError('뉴스 피드를 가져오지 못해 오래된 브리핑 덮어쓰기를 중단합니다.')
-    draft=script_with_gemini(w,news,market_data,require_ai='--require-ai' in sys.argv or bool(os.getenv('GEMINI_API_KEY')))
+    if '--use-preview' in sys.argv:
+        if preview:raise ValueError('Cannot preview and render a saved preview together')
+        draft,metadata=saved_preview()
+        w=metadata['weather'];news=metadata['articles'];market_data=metadata['markets']
+        facts_generated_at=metadata['generated_at']
+    else:
+        w=weather();news=headlines();market_data=markets()
+        if not news:raise RuntimeError('뉴스 피드를 가져오지 못해 오래된 브리핑 덮어쓰기를 중단합니다.')
+        draft=script_with_gemini(w,news,market_data,require_ai='--require-ai' in sys.argv or bool(os.getenv('GEMINI_API_KEY')))
+        facts_generated_at=NOW.isoformat()
     script=draft['script']
     (OUT/('preview.txt' if preview else 'latest.txt')).write_text(script,encoding='utf-8')
-    (OUT/('preview_sources.json' if preview else 'sources.json')).write_text(json.dumps({'generated_at':NOW.isoformat(),'weather':w,'articles':news,'markets':market_data,
+    (OUT/('preview_sources.json' if preview else 'sources.json')).write_text(json.dumps({'generated_at':facts_generated_at,'weather':w,'articles':news,'markets':market_data,
         'writer':{k:v for k,v in draft.items() if k!='script'},
         'speech':{'generated':not preview,'model':'eleven_multilingual_v2','speed':0.96,'stability':0.75,'chunks':len(speech_chunks(script))}},ensure_ascii=False,indent=2),encoding='utf-8')
     if preview:
