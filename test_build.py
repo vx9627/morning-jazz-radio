@@ -69,6 +69,16 @@ class RadioTests(unittest.TestCase):
         with patch.dict(build.os.environ,{'GEMINI_MODEL':''}),patch.object(build.requests,'get',return_value=response):
             self.assertEqual(build.gemini_model('test-key'),'gemini-3.8-flash')
 
+    def test_transient_provider_failure_gets_one_bounded_retry(self):
+        unavailable=Mock(ok=False,status_code=503);success=Mock(ok=True)
+        with patch.object(build.requests,'post',side_effect=[unavailable,success]) as post,patch.object(build.time,'sleep'),patch('builtins.print'):
+            self.assertIs(build.post_gemini('test-key','gemini-3.8-flash',{}),success)
+            self.assertEqual(post.call_count,2)
+        unauthorized=Mock(ok=False,status_code=403)
+        with patch.object(build.requests,'post',return_value=unauthorized) as post,self.assertRaisesRegex(RuntimeError,'HTTP 403'):
+            build.post_gemini('test-key','gemini-3.8-flash',{})
+        self.assertEqual(post.call_count,1)
+
     def test_bundled_audio_tools_decode_and_mix_real_mp3(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory)
