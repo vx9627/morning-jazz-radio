@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Morning Radio: no paid dependencies other than optional Gemini and ElevenLabs APIs."""
 import os, json, math, wave, random, subprocess, re, sys
+import time
 from pathlib import Path
 from datetime import datetime
 from datetime import timedelta
@@ -351,6 +352,16 @@ def gemini_model(key):
         if name in available:return name
     raise RuntimeError('No supported stable Gemini Flash model available')
 
+def post_gemini(key,model,payload):
+    for attempt in range(2):
+        response=requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',headers={'x-goog-api-key':key},json=payload,timeout=100)
+        if response.ok:return response
+        if attempt==0 and response.status_code in (429,500,502,503,504):
+            print('Temporary Gemini response:',response.status_code,'retrying once')
+            time.sleep(2)
+            continue
+        raise RuntimeError(f'Gemini generation failed: HTTP {response.status_code}')
+
 def script_with_gemini(w,news,market_data,require_ai=False):
     key=os.environ.get('GEMINI_API_KEY','').strip()
     if not key:
@@ -375,11 +386,10 @@ def script_with_gemini(w,news,market_data,require_ai=False):
         schema={'type':'object','properties':{**{s:{'type':'string'} for s in WRITER_SECTIONS},'news_ids':{'type':'array','items':{'type':'integer'}}},'required':[*WRITER_SECTIONS,'news_ids']}
         feedback=''
         for attempt in range(2):
-            response=requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',headers={'x-goog-api-key':key},json={
+            response=post_gemini(key,model,{
                 'systemInstruction':{'parts':[{'text':instruction}]},
                 'contents':[{'parts':[{'text':json.dumps(payload_data,ensure_ascii=False)+feedback}]}],
-                'generationConfig':{'temperature':0.65,'maxOutputTokens':7000,'responseMimeType':'application/json','responseJsonSchema':schema}},timeout=100)
-            if not response.ok:raise RuntimeError(f'Gemini generation failed: HTTP {response.status_code}')
+                'generationConfig':{'temperature':0.65,'maxOutputTokens':7000,'responseMimeType':'application/json','responseJsonSchema':schema}})
             candidates=response.json().get('candidates',[])
             text=''.join(p.get('text','') for p in (candidates[0].get('content',{}).get('parts',[]) if candidates else []) if not p.get('thought'))
             try:
