@@ -65,7 +65,7 @@ class RadioTests(unittest.TestCase):
             self.assertEqual((out/'preview.txt').read_text(),draft['script'])
 
     def test_new_key_selects_an_available_stable_model(self):
-        response=Mock(ok=True);response.json.return_value={'models':[{'name':'models/gemini-3.8-flash','supportedGenerationMethods':['generateContent']}]}
+        response=Mock(ok=True);response.json.return_value={'models':[{'name':'models/gemini-2.5-flash','supportedGenerationMethods':['generateContent']},{'name':'models/gemini-3.8-flash','supportedGenerationMethods':['generateContent']}]}
         with patch.dict(build.os.environ,{'GEMINI_MODEL':''}),patch.object(build.requests,'get',return_value=response):
             self.assertEqual(build.gemini_model('test-key'),'gemini-3.8-flash')
 
