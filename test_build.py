@@ -10,6 +10,18 @@ from pathlib import Path
 
 
 class RadioTests(unittest.TestCase):
+    def test_saved_preview_preserves_script_and_rejects_stale_facts(self):
+        with tempfile.TemporaryDirectory() as temp,patch.object(build,'OUT',Path(temp)):
+            script='정기님, 좋은 아침이에요. 저장한 대본이에요.'
+            (build.OUT/'preview.txt').write_text(script,encoding='utf-8')
+            meta={'generated_at':build.NOW.isoformat(),'writer':{'engine':'gemini'}}
+            (build.OUT/'preview_sources.json').write_text(json.dumps(meta),encoding='utf-8')
+            with patch.object(build.requests,'post',side_effect=AssertionError('No regeneration')):
+                self.assertEqual(build.saved_preview()[0]['script'],script)
+            meta['generated_at']=(build.NOW-build.timedelta(hours=3)).isoformat()
+            (build.OUT/'preview_sources.json').write_text(json.dumps(meta),encoding='utf-8')
+            with self.assertRaisesRegex(ValueError,'older than two hours'):build.saved_preview()
+
     def writer_fixture(self):
         weather={'신도림':{'현재기온':3.6,'최저기온':1.9,'최고기온':10.9,'최대강수확률':0}}
         news=[{'분야':'주요뉴스','제목':'주민 2명 구조 - 보도사'},{'분야':'국제','제목':'국제 회의 개최 - 보도사'}]
