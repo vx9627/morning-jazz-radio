@@ -37,6 +37,8 @@ class RadioTests(unittest.TestCase):
         self.assertIn('두 명',result['script'])
         alias=dict(draft);alias['us']+=' S&P 500 지수도 함께 살펴봤어요.'
         self.assertNotIn('S&P 500',build.validate_writer(alias,tokens,required,data['articles'],[])['script'])
+        particles=dict(draft);particles['crypto']+=' {{q3.price}}를 확인했어요.'
+        self.assertIn('원'+ '을 확인했어요',build.validate_writer(particles,tokens,required,data['articles'],[])['script'])
         missing=dict(draft);missing['stocks']=missing['stocks'].replace('{{q2.change}}','')
         with self.assertRaisesRegex(ValueError,'Missing required'):
             build.validate_writer(missing,tokens,required,data['articles'],[])
