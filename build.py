@@ -346,7 +346,8 @@ def gemini_model(key):
     response=requests.get('https://generativelanguage.googleapis.com/v1beta/models',params={'pageSize':100},headers={'x-goog-api-key':key},timeout=30)
     if not response.ok:raise RuntimeError(f'Gemini model discovery failed: HTTP {response.status_code}')
     available={m['name'].removeprefix('models/') for m in response.json().get('models',[]) if 'generateContent' in m.get('supportedGenerationMethods',[])}
-    for name in ('gemini-2.5-flash','gemini-3.8-flash','gemini-3.6-flash','gemini-3.5-flash','gemini-3.1-flash-lite'):
+    # Legacy models can remain listed while rejecting a newly-created API key.
+    for name in ('gemini-3.8-flash','gemini-3.6-flash','gemini-3.5-flash','gemini-3.1-flash-lite','gemini-2.5-flash'):
         if name in available:return name
     raise RuntimeError('No supported stable Gemini Flash model available')
 
@@ -357,6 +358,7 @@ def script_with_gemini(w,news,market_data,require_ai=False):
         return {'script':fallback_script(w,news,market_data),'engine':'fallback','reason':'missing_gemini_key','closing':None}
     try:
         model=gemini_model(key);tokens,required,data=writer_facts(w,news,market_data);history=closing_history()
+        print('AI radio writer model:',model)
         style=(ROOT/'RADIO_STYLE.md').read_text(encoding='utf-8').split('## 현재 적용 상태')[0]
         instruction=(style+'\n전체 방송 대본을 JSON으로 작성하라. 각 section은 string이다. opening, weather, news, us, korea, stocks, crypto, closing 순서. '
             'news_ids에는 실제 사용한 기사 id를 넣어라. 뉴스는 세네 건을 짧고 자연스럽게 풀어 쓰고, 확인되지 않은 세부 사실이나 원인을 보태지 마라. '
