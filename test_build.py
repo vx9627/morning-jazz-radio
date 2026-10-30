@@ -85,14 +85,21 @@ class RadioTests(unittest.TestCase):
         with patch.dict(build.os.environ,{'GEMINI_MODEL':''}),patch.object(build.requests,'get',return_value=response):
             self.assertEqual(build.gemini_model('test-key'),'gemini-3.8-flash')
 
-    def test_transient_provider_failure_gets_one_bounded_retry(self):
+    def test_transient_provider_failure_uses_backoff_and_available_model(self):
         unavailable=Mock(ok=False,status_code=503);success=Mock(ok=True)
-        with patch.object(build.requests,'post',side_effect=[unavailable,success]) as post,patch.object(build.time,'sleep'),patch('builtins.print'):
-            self.assertIs(build.post_gemini('test-key','gemini-3.8-flash',{}),success)
-            self.assertEqual(post.call_count,2)
+        with patch.object(build.requests,'post',side_effect=[unavailable,unavailable,unavailable,success]) as post,patch.object(build.time,'sleep') as sleep,patch.object(build,'gemini_model',return_value='gemini-3.8-flash') as discover,patch('builtins.print'):
+            self.assertIs(build.post_gemini('test-key','gemini-3.6-flash',{}),success)
+            self.assertEqual(post.call_count,4)
+            self.assertEqual([call.args[0] for call in sleep.call_args_list],[5,15])
+            discover.assert_called_once_with('test-key',exclude={'gemini-3.6-flash'})
+            self.assertEqual(success.radio_model,'gemini-3.8-flash')
+        with patch.object(build.requests,'post',return_value=unavailable) as post,patch.object(build.time,'sleep'),patch.object(build,'gemini_model',return_value='gemini-3.8-flash'),patch('builtins.print'):
+            with self.assertRaisesRegex(RuntimeError,'HTTP 503'):
+                build.post_gemini('test-key','gemini-3.6-flash',{})
+            self.assertEqual(post.call_count,6)
         unauthorized=Mock(ok=False,status_code=403)
         with patch.object(build.requests,'post',return_value=unauthorized) as post,self.assertRaisesRegex(RuntimeError,'HTTP 403'):
-            build.post_gemini('test-key','gemini-3.8-flash',{})
+            build.post_gemini('test-key','gemini-3.6-flash',{})
         self.assertEqual(post.call_count,1)
 
     def test_bundled_audio_tools_decode_and_mix_real_mp3(self):
