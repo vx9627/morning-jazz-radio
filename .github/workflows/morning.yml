@@ -2,7 +2,8 @@ name: Generate Morning Radio
 
 on:
   schedule:
-    - cron: '15 22 * * *'
+    - cron: '15 22 * * 0-4' # KST Mon-Fri 07:15
+    - cron: '15 23 * * 5,6' # KST Sat-Sun 08:15
   workflow_dispatch:
     inputs:
       mode:
