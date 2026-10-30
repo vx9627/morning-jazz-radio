@@ -7,12 +7,13 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'preview: 대본만 검토 / audio: 음성 생성'
+        description: 'preview: 대본 검토 / audio: 검토본 음성 / fresh_audio: 최신 방송 생성'
         type: choice
         default: preview
         options:
           - preview
           - audio
+          - fresh_audio
 
 permissions:
   contents: write
@@ -44,13 +45,13 @@ jobs:
         run: python build.py --prepare-only --require-ai
 
       - name: Generate radio MP3
-        if: github.event_name == 'schedule' || inputs.mode == 'audio'
+        if: github.event_name == 'schedule' || inputs.mode == 'audio' || inputs.mode == 'fresh_audio'
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-        run: python build.py --require-ai ${{ github.event_name == 'workflow_dispatch' && '--use-preview' || '' }}
+        run: python build.py --require-ai ${{ inputs.mode == 'audio' && '--use-preview' || '' }}
 
       - name: Publish draft or audio
         env:
