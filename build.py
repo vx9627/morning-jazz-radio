@@ -359,26 +359,39 @@ def validate_writer(draft,tokens,required,articles,history):
     speech_chunks(script)
     return {'script':script,'closing':rendered['closing'],'validation':{'fact_tokens_used':len(all_used),'news_ids':used,'sections':list(WRITER_SECTIONS),'recent_closings_checked':len(history)}}
 
-def gemini_model(key):
+def gemini_model(key,exclude=()):
     configured=os.getenv('GEMINI_MODEL','').strip()
-    if configured:return configured
+    if configured and configured not in exclude:return configured
     response=requests.get('https://generativelanguage.googleapis.com/v1beta/models',params={'pageSize':100},headers={'x-goog-api-key':key},timeout=30)
     if not response.ok:raise RuntimeError(f'Gemini model discovery failed: HTTP {response.status_code}')
     available={m['name'].removeprefix('models/') for m in response.json().get('models',[]) if 'generateContent' in m.get('supportedGenerationMethods',[])}
     # Legacy models can remain listed while rejecting a newly-created API key.
     for name in ('gemini-3.6-flash','gemini-3.8-flash','gemini-3.5-flash','gemini-3.1-flash-lite','gemini-2.5-flash'):
-        if name in available:return name
+        if name in available and name not in exclude:return name
     raise RuntimeError('No supported stable Gemini Flash model available')
 
 def post_gemini(key,model,payload):
-    for attempt in range(2):
-        response=requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',headers={'x-goog-api-key':key},json=payload,timeout=100)
-        if response.ok:return response
-        if attempt==0 and response.status_code in (429,500,502,503,504):
-            print('Temporary Gemini response:',response.status_code,'retrying once')
-            time.sleep(2)
+    retry_delays=(5,15)
+    for provider_attempt in range(2):
+        for attempt in range(len(retry_delays)+1):
+            response=requests.post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',headers={'x-goog-api-key':key},json=payload,timeout=60)
+            if response.ok:
+                response.radio_model=model
+                return response
+            if attempt<len(retry_delays) and response.status_code in (429,500,502,503,504):
+                delay=retry_delays[attempt]
+                print('Temporary Gemini response:',response.status_code,'retrying after',delay,'seconds')
+                time.sleep(delay)
+                continue
+            break
+        if provider_attempt==0 and response.status_code in (500,502,503,504):
+            try:alternate=gemini_model(key,exclude={model})
+            except RuntimeError:break
+            print('Gemini temporarily unavailable; trying available model:',alternate)
+            model=alternate
             continue
-        raise RuntimeError(f'Gemini generation failed: HTTP {response.status_code}')
+        break
+    raise RuntimeError(f'Gemini generation failed: HTTP {response.status_code}')
 
 def script_with_gemini(w,news,market_data,require_ai=False):
     key=os.environ.get('GEMINI_API_KEY','').strip()
@@ -419,7 +432,7 @@ def script_with_gemini(w,news,market_data,require_ai=False):
             text=''.join(p.get('text','') for p in (candidates[0].get('content',{}).get('parts',[]) if candidates else []) if not p.get('thought'))
             try:
                 result=validate_writer(json.loads(text),tokens,required,data['articles'],history)
-                return {**result,'engine':'gemini','model':model}
+                return {**result,'engine':'gemini','model':getattr(response,'radio_model',model)}
             except (ValueError,KeyError,TypeError) as exc:
                 feedback='\n이전 결과의 검증 오류: '+str(exc)+'. 이 문제를 수정한 JSON 전체를 다시 작성하라.'
                 if attempt:raise ValueError('AI radio script failed validation: '+str(exc)) from None
