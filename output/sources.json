@@ -1,249 +1,249 @@
 {
-  "generated_at": "2026-11-24T15:03:54.585140+09:00",
+  "generated_at": "2026-11-25T13:53:42.614777+09:00",
   "weather": {
     "신도림": {
-      "현재기온": 0.9,
+      "현재기온": 5.0,
       "현재강수mm": 0.0,
-      "날씨코드": 0,
-      "최고기온": 5.0,
-      "최저기온": -2.9,
+      "날씨코드": 1,
+      "최고기온": 6.1,
+      "최저기온": -3.6,
       "최대강수확률": 0
     }
   },
   "articles": [
     {
       "분야": "주요뉴스",
-      "제목": "중·고교 내신 AI 커닝 하면 당일 ‘전 과목 0점’…퇴학까지 가능 - 한겨레",
-      "발행": "Tue, 24 Nov 2026 02:50:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IdXNjUEp4ODdEbHFzYThZcWctZmUxUTBaMTVyNTdpRlBYdFRaTV8zZXdCYmZ4ZTk3UlJ5R3NkZXFDdkI4OGxRSkE1YVVCVktFNml6a08wazhDWTI3RFE5Wnl4a3lfV0RTY2c?oc=5"
+      "제목": "[속보] 노소영 측, 최태원 ‘9440억원 화해권고’ 요청에 “동의 안해” - 조선일보",
+      "발행": "Wed, 25 Nov 2026 02:13:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNlJFclg4TE16S1RoOEN3c284UExobEp2aExrcWMxLVBwWi1WSzljSVJSZF8tRWpYOWJjRW5raEZWQ1VQaVNpY3l1WUsxOXFFX3dTQXNNR2NhTnZEbHNReGpsN01lMGtlaTJWZmpHQ0lGSjdPeURlYTdFTmpheUxBMHFOOE9tcVk?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "김병주, 외교·안보 개편 '위성락 영향력 강화' 질문에 \"한미 현안 대응 인사\" - 뉴스핌",
-      "발행": "Tue, 24 Nov 2026 01:16:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KY3hwM0VzdExDQm0wdG9oejY2WTlYZlVKUy1CcFNXTU0tUkNsYnFBZ1FBQlZSUmtyaUwzQWk0aFhyUFR3N1NEaEpTRE0xaWhfOHVickJfWmlPV0dC?oc=5"
+      "제목": "김민석, 조희대 탄핵 '5당 연대' 공식 제안‥\"신속 추진\" - MBC 뉴스",
+      "발행": "Wed, 25 Nov 2026 01:13:37 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LM0J2NnZfTnR5Wmk2ZE5QTm5wTTU0ME5vSm1oZlhjY0lZY3dsSEozNldtc2hCZ3BkZW9oa3VRbmZDVW9GMzgtblF0c3l2VmZEYXFDTWY5a2FGNHhDSTh0aHFWOFVVYVBnNXpMWDdrVmExSE5HQ194btIBeEFVX3lxTE1GdHI3U09KU1ppMzZKY3lhSzJqam5ya3NrZWk0cl9LNHdHNmg4Qjk0X2hMbTRLOUV2S01RRzF0LVJMd2F6WF9ONXNjd0o2cDNPVEZwMUt4Um1rXzAwRHU1emprMG5PQUhfd08td0ZHU0RfMmxSMWdpNg?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "[뉴스분석] 인용 가능성 낮은데···민주당 내부서도 ‘탄핵소추권, 정치 이벤트로 소비’ 우려 - 경향신문",
-      "발행": "Mon, 23 Nov 2026 21:00:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFaUJLZmlyNUxaZjJCOGduX2ZRZEV2R1c2MlJLN09sd0lKbkNiRnV2bF9wd2xLb1JsZmlmal9rNHRMU1RkN3lmVmNEdl81SHQxS2ZBdDZ6SVFwZ9IBX0FVX3lxTE9NN3M5TW9rY2VFZnBHZWFmb1hCMmdhVElsb1A4em0tOUhGU2NhYS1pYlNIa19ESkhhbDVadE9YV1ZlTHkyT0NfM3htZ1gySHliVEtPd2gtY0E4NGJ0QlZR?oc=5"
+      "제목": "국힘 “이용철 법무장관 후보자는 부적격…청문보고서 거부 방침” - 한겨레",
+      "발행": "Wed, 25 Nov 2026 02:46:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sQllycEx1bVBKY3JYRVo4WGUxUG1UZW5uS3htMVJlV2xlRmdqcHJBRHZhYVJpWkg2UkMzc2lsX1dpZFJ1Z0x0Y3hGYmhFa1ZyZkk0MzlIcG0wajk2RF9uWjhoaF9sZUItQWo1aGZBZEt3RWRF?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "서울지하철 노사 최종 협상 돌입...결렬 시 내일 첫차 파업 - YTN",
-      "발행": "Tue, 24 Nov 2026 02:48:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EbnJ6Qk5NRXozbnJUNHVwVXljTmhkQU8yT0pFMm01d3FtZ3NlN1RZOW9RLUJYZ3lHZDJ5VWNmbG1nTk53S1FGblZFZGktMnBYeXhhcWltcVp5SGhZanc?oc=5"
+      "제목": "음주운전 단속되자 편의점서 ’술타기’ 시도…50대 송치 - 연합뉴스TV",
+      "발행": "Wed, 25 Nov 2026 00:49:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBISHI2czExd0pCaDZIelZJR1JzemtNWTFad1ZYZmpLR2hxSl94X3MzR21UZHJtQS1VNGlCLUp6Wi1xdTBYWnZGQVRWOVR1YXN0WDRaeEJVNWFRMmJRS0E5NGlPSnBaenc?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "李대통령 \"사이비 종교단체 해산, 실효적인 조치 검토할 때\" - 조선일보",
-      "발행": "Tue, 24 Nov 2026 02:07:39 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU3hUc3g3aFpfQnFUZ3hjRkV0TVQ1NzkwYkVmOXBmOHVucllUMjNlZ2swYXBRMzl5Vmh3a0F4RHNVMFR5RjBUTURNQ0tKd3lFZTROVGEtbmFtd2Via0w5a3FxdHNNRmRWYk95TUdFOUtkOGdlT25PM1FNb3VCQ3lseHl2aEp1Tkst?oc=5"
+      "제목": "전국 영하권 ‘칼바람’ 추위…내일은 누그러져요 - 한겨레",
+      "발행": "Wed, 25 Nov 2026 02:22:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OdzlYaW5rZHV1RHgxSlFIaE9vdjNEU1JjUE8zYVM4bVl1UHV4YWxfSzVHbkVqU0pYdVp1Tlg1Si1nVXF4dW10R01nclZUTUR3MUxCU1A4TVNwbzU3YmZMeHpXMkxPUGNWcE54UV9JTVl2UQ?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "이 대통령 “시험 부정, 주가 조작과 본질 같아…추적해 엄벌” - 한겨레",
-      "발행": "Tue, 24 Nov 2026 02:51:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBM1RWczdCYkY2Tk02Q1Z5VG83TWNSZnE0dWVHNkxya0duQzFTRlJlLUc3aUVaSFcyUUhPeXd3aEtUa0JyVUtZMnlFUnRuLTYtaUVrWjNqeFE3LTFFcHRNN3o0U1N1ZUJWSU9z?oc=5"
+      "제목": "수능 시험지 보관, 1년→5년 늘린다…부정행위 사후 조사 위해 - 한겨레",
+      "발행": "Wed, 25 Nov 2026 02:49:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rc19teWY1a2RnSl9JLW9ZR21fNUF2djlFVjVLbTJIZXBUYnF4YzExcTJ6ZEQwcDB0NlpDa2tsWlpycmdkME93LTB0U0RLSjJURmd5cVlHQjZodUd0TTdJSEpHZVI3RzJwaUE?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "’조작 징계’ 추가 의혹 제기에…당 일각 “장동혁 사퇴·진상조사위“ - 연합뉴스TV",
-      "발행": "Tue, 24 Nov 2026 04:39:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSWDJlbzJHYmxmcDdHMGctVHVZTldJM1lNRWFPZzdLeEM0ZmktWVhsMVZybDlqUWptVlFSUUtfVG9lNzJZdDBtaThXRmlWeXc2X3E4OVg4bHhJU0taSmJvMlBRXzZNWDQ?oc=5"
+      "제목": "러 군용기 동해 KADIZ 진입 후 이탈…울릉군에 한때 경계경보 [종합] - 한국경제",
+      "발행": "Tue, 24 Nov 2026 00:29:54 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzSGt6aFVuMHlKa20zTThsRDN0b3BfUWEyNkxrVS1TUVNmRkFEVjYwWGs0YllWanB0dXM4bVgxUHlXXzVubTdPRk1pYnpUYzVXTHg4SjgyNVFxdw?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "울릉군 전역에 러시아 항공기 영공침범 경계경보…3분 만에 해제 - 뉴스1",
-      "발행": "Mon, 23 Nov 2026 23:07:09 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uRlgxbmQ4SHMzSWQ5YzZDckk3RmttVXNqU2RnMXJQdVhPOVpGZklLNnFHM0drdERSQVdWblRiWHR1X2dMRTVtQ0ZKRC1reUVHdkZzc0trU1ZrSlJoYmg0?oc=5"
+      "제목": "'한동훈 조작징계' 주장 최 모씨, 10억 요구설에 '기획단 운용비' 반박 - 뉴스1",
+      "발행": "Wed, 25 Nov 2026 02:45:24 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91aUMzb2JKby1ZdURVQ3haUmVYNm9xUE5HQmFsMTNVWDUycXliNXh6V2V0Q0E3Z21uMXR2VkJ6U1dTZ3JfT2tZdV85U0EyN3Uwblk0ZWhWdlg1dw?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "출근길 영하권 추위…‘빙판길’ 조심 - 한겨레",
-      "발행": "Tue, 24 Nov 2026 02:05:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rWkhwc3dmWkExQUlSTzBvdmJ2WVMtX2JXS0hPRXN1a0g0ZVFIZHc4YXJ4S2VwZnUzTW96V3hOLUF2WE92MkJXUzFDQlVfSDBIM3dKR2hMS054SjVHQUFBU2M2c1FZd2Yzb2VNMA?oc=5"
+      "제목": "최민희 징계 심의 D-2…與 친청계, 김민석에 '신천지 결자해지' 압박 - 뉴스1",
+      "발행": "Wed, 25 Nov 2026 02:02:39 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YdnVlcGlwNGs0ZWdzMjRtUTVWeXhHNlBBVWJqLUpQZXQyaWw3SndFMm1zRzBHclRLeGhLbi1mVzVlTWMydVFES1ZmUWkta0FXUlRvZl9oMXZXZw?oc=5"
     },
     {
       "분야": "주요뉴스",
-      "제목": "답변하는 이용철 법무장관 후보자 - 뉴스1",
-      "발행": "Tue, 24 Nov 2026 02:04:01 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhTFpWNmRaYWkyT2YyQThTeXdkTEJpZzVCTVdfbm9wQjk2ZUJYSVRzaU1ab0J2Mzluejg4WVhGc3JkelVlUjdjX3cxdw?oc=5"
+      "제목": "\"리트 만점자 근황 떴다\"…AI로 만든 조롱성 게시물 논란 - 한국경제",
+      "발행": "Tue, 24 Nov 2026 22:40:52 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lLUlNVU5aYXJIbi1CZDFjYW9aZjlTMmh2RktndXhUdXdIR3hIeXhLbHpDRkthcEdUUkRyUWl1ZU9DeURWRk9MWTVNanNXNXZoaUwxRnZEdzNkQQ?oc=5"
     },
     {
       "분야": "국제",
-      "제목": "\"우크라전 러시아군 사망자 70만명…해킹 러 국가통계로 추산\" - 뉴스1",
-      "발행": "Tue, 24 Nov 2026 00:46:31 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3elNTMlhtVDZrVGRtRWRfVGZqbTU0UHFnMnlaRGpaVHRsZWppQWh1Vkl6T2tfaWhzcmNxMHRXSFJ6VVVMTkVvSXVJRWpCSFpZd1JR?oc=5"
+      "제목": "푸틴 \"러시아 석유시장 어려워\"…우크라 공격에 보복 예고 - 연합뉴스TV",
+      "발행": "Tue, 24 Nov 2026 21:00:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByeHhqLVRRdGVTZEtBdmwyRGlBS055cUhyS2RMaVJwMnJod1lMUWZtMzN4OGY4RzJ0UHJBX2l5ck5kckk2SG1vVTlxenkxSzhyNl9LNHRBLS1IMWxXYjQ2czFBVkZjSlk?oc=5"
     },
     {
       "분야": "국제",
-      "제목": "김여정, 스위스 대북제재에 반발…“평양 스위스 외교사무소 철수 검토” - 한겨레",
-      "발행": "Tue, 24 Nov 2026 04:48:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfcVJSa1c2TklOS0hBanhKYXZVUVoyZFVoR1FQSkc2N1FPemk2clBVLXYzWUloWC14UGtQWXRCWEFfUFVTLUM2THFuOVBwTFVNcVh5eTdDQVE3QUNYMVhyb0dtdHRWeWU4QldMaUFCZFZMZXJ3?oc=5"
+      "제목": "사우디 수도 최고층 빌딩, 경보도 없이 또 피격…11명 부상(종합) - 연합뉴스",
+      "발행": "Tue, 24 Nov 2026 16:00:54 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqNzdTdHRCZnd6clN3T05vc0Jmc0U1dTBMektZR3JEM0FJTFJ1bTFHWU9NY2pmNm5vY3pYVXlIVmx5bEFrUnk5NnJCRmpJN0tfOE50M2FYWFNFYUHSAWBBVV95cUxOWlpkaHdjVEx4cWNIQmhNQWIzWjFST3JvUkpxUnNxQmNqS1FOM25XN1o5Z0ZiMUVlY3d4ZTJoUm9Sc0dvLXdvcFB1c1VBQnRyZWduRGp3MlFpQWw4emE3eVQ?oc=5"
     },
     {
       "분야": "국제",
-      "제목": "버넘 영국 총리 \"국민투표 없이 EU 재가입 생각할 수 없어\"(종합) - 연합뉴스",
-      "발행": "Tue, 24 Nov 2026 00:23:47 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoWHBkMHlzOGJmdklDZFBkNG52Z05sdWZjQ3dvVnFjTUhYOVVSbFFoV2szaXZHc2lBdVMtZ1ZIQjBIOXlibU90aG02SkxVRzdFX2JTZ0tYeHNzeFHSAWBBVV95cUxPRzBoN3BxNXNwRWZxeC1HQmxJZFFuSkN0cDRGZHZhNUlVdFlMR3NpSHE0dlRPdGZBUnVKSmhHY2NUR3d2WUcxMFJCX1hSR3otWi1OTlg5dnpBOXZocEhsYlg?oc=5"
+      "제목": "21세기 맞나…히잡 벗고 노래했다고 '태형 74대' - 한국경제",
+      "발행": "Tue, 24 Nov 2026 22:57:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52YVdJWGxPMDN0YVZOMWlQdVJaVEFlZklVUl93RDhaR0ZyYThVeVhBR25ha1VMcUFUc2lZWERIYU50WjJyWTJkbUxOWkRTdVRKWFcyM3AtdzN5QQ?oc=5"
     },
     {
       "분야": "국제",
-      "제목": "유엔기후협약 합의문 채택 무산… 화석연료 퇴출 이견 못 좁혀 - 조선일보",
-      "발행": "Mon, 23 Nov 2026 15:45:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU2I4dE1kSFdVY09ERUtYc0tJeFFHaG9OZzM2OTFyTjBlcTdudmdVSW05b0g4MmxoN1ZMV190SHRNVmlENzJvVDhMSHRMMDVlbmlLRllCSmthRk44dEk3REpwaktKLTRpZlRucDM0ZVNZNjVSSXUyTjV0YVNqUS1hRDFuU1MtQzdJVzctQzVRdU5GRHNTeFdV?oc=5"
+      "제목": "젤렌스키, 발트해 러 선박 공격 확인‥\"정당한 표적\" - MBC 뉴스",
+      "발행": "Tue, 24 Nov 2026 13:09:45 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qb0FBRWhCbVNma3AyeWw3bEdBRllOdTczUEJETEpWWUlXNVhuN3pEc3doSG9SelExYVcxd2VZY2NfdUh1OFd5UGpKS0lzcnpzX3pvUUltUWY4SW9qU2xRYWdBM3hOSmVyQmpHN1JZYU1zVnZt0gF0QVVfeXFMTjhLT3RST3VBQTdXN2lhcm9vWGR4YjJaTDZBZUpLX1hFOXhoUEtDUGFJVV9udFdNYlJoRzU1WUxBTmlqVFBmcnBRWFE1U3c4QnVFRHZxR0tqXzVVYVVKQjFmbDhIQWJsLV9NeXJlcDFQajkydTc?oc=5"
     },
     {
       "분야": "국제",
-      "제목": "독일 전역 학교에 폭파 협박 이메일‥덴마크도 위협 - MBC 뉴스",
-      "발행": "Mon, 23 Nov 2026 21:29:10 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zai1GMmI1YmFHeHJCMVhjMjlHTWxlMWJwbTQ2ZDlGSUo1dTNMSlZ1Y2pEV2hDbmJubVBNMFgta29Oa2NJanVfcUhCMW4yZHJyUDNSQ1pIM1pxRGFXTV9SWk55TkZiaV9UUmgxTHlMYUc4STZi0gF0QVVfeXFMTUt0QkFYSGNjTnFZbjA1aTlFa3paUVA5TW5uYVVXckkzOVAySFRBMjM2SDFVNVlZYkp6Q05aYUdCUHVmMHJMdjdJaTc2eVlCOV9ENGJRbGJ1RHl2TWM1THBfakZhUTBVclhtSXI3UWQyemN5bUs?oc=5"
+      "제목": "하마스 고위 보안 관리, 이스라엘 가자지구 공습으로 사망 - 한겨레",
+      "발행": "Tue, 24 Nov 2026 14:14:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5vcHBXWHdUa2V5ejFCeG94QTc2NzE2cVp6R2EzRlh1Zk1mVjROQ2hLZDMxcDNHMWV3VmZBc2ZhU09YZ2lhWjNXT19oeGpWWGx6SzBieHBwY3VMLW5wTFZhT2JMOEk5NXVLUEZmUTY0d2Zvb0E?oc=5"
     },
     {
       "분야": "국제",
-      "제목": "리비아 정부, ’러 선박 공격’ 우크라 규탄…공식 해명 요구 - 연합뉴스TV",
-      "발행": "Mon, 23 Nov 2026 20:56:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93b2Q3alRFT2szdGJCejN4MHgzdnRMb3dWc1RDaUMtQjFPWVhnU2Q4YTIxRkZoMjhVdFl4bmM4UkVWWjV3QWc4aENIRHBkdl82Z0lZNlJSekx4NzVVVUZBaHF5WTIybGs?oc=5"
+      "제목": "트럼프 “김정은과의 ‘러브 레터’ 당장이라도 시작 가능” - 경향신문",
+      "발행": "Wed, 25 Nov 2026 01:56:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VUXRiWVJ5SzFLSmVMT3RpNDFqcFl6WXB4NnRlZ0xWU21VTmVxWnVkM1dnNHRjRWZJeTNqYWJTWUVtU2dxQW1UWmV0cllGRWR5YTNmSkZmUVJpd9IBX0FVX3lxTFA4QllEVUxZbDU1RWk0WV9ORGdpQVNuWE5uREt1bFBEZldqV0lkOWRFQzZjbXg3VlZsTkZMRFRJWERfLXk5RGsxTzFBTUY3MEdkOFMzUDNBQ2Q4MFJUT1ln?oc=5"
     },
     {
       "분야": "국제",
-      "제목": "\"日다카이치, 中의 APEC 홀대 계산했다…보수층 결집에 역이용\" - 뉴스1",
-      "발행": "Tue, 24 Nov 2026 02:19:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ScUpLajY5ZFp5dHVtd1dOa3NJRmlQRHotcXBVQU9NZ3NDQUNPcXM0TFFzYUtCSXhwWll2SzdGdER3Nm9KejZxb0JjTnVwaURDVHQ2ZW5EaUU4MzVzaXc?oc=5"
+      "제목": "美국무부, 김주애 스키 장비에 \"北 반입금지 사치품\" - 연합뉴스TV",
+      "발행": "Tue, 24 Nov 2026 22:45:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9mS2RIVkRaUGUyZ3pnS0Jqc0J6R3NhNGxvQ1d0Wk5rNXJEX1VGcmpXZUpMUUFYSmRla1pWZzJfcmtCNTVBNjNWTkNFTmNqd0xJS1U2VE5fWGxwV2NINGJ6di1HUk8wMTQ?oc=5"
     },
     {
       "분야": "국제",
-      "제목": "트럼프 인사-예산, 집권 공화당이 제동… “조기 레임덕 가능성도” - 동아일보",
-      "발행": "Mon, 23 Nov 2026 19:30:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jZkZ6RHB6SmFzdHZDOEM1OGNBU0s3aHNZdlVJTG0xdmx4dTNrbXhfaXUxUlJHX3Y5a25janRtTmFnTW1TXzJ0ZnNTQTZROHVIY2tPRUtObENJTnBpbjdLVGNLYW5jOTRlWmQxaXpyNVhldk3SAWZBVV95cUxQRlItT2x5SWUwRmRpTjBkaTNKZU1hVVRsYXFwcU5hMVpKT1BPU3BqbHI3YVByaUFYeG5aOFl2NF8xTjNfWXdpQ0g2YmhHUmZ6cDRFRVRKQ0tEdXJXcjVUTG9pM2ZlVEE?oc=5"
+      "제목": "北, 김여정 담화 하루만에 평양주재 스위스 외교사무소 전격폐쇄 - 연합뉴스",
+      "발행": "Wed, 25 Nov 2026 03:30:39 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pLVVaWWlKVExiWHk1Z1BWVHVjSC00YkViVHRVbG8ySEo5SWJOWGQxRXN2dnFFUGVnd2Fuc3NaV1g5UUxCNDIzYUVVc0ljeklUNmpmMGlSQ2dfaUnSAWBBVV95cUxNVGM1T1FtUF9qY01NR2w0MGJNUlpaUm96d1phVzlRTmtqZ3cxNEEwRmE0emR5Y0l3TGVSX2kzUlB5STRXOUdiQWJnTXpHRDlZUE92Q1BHU3lLRWZOSTJXNjk?oc=5"
     },
     {
       "분야": "국제",
-      "제목": "‘승려가 절에서 성관계’ 영상 찍혔다…태국 불교계 “가장 심각한 죄” [핫이슈] - 나우뉴스",
-      "발행": "Tue, 24 Nov 2026 00:40:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FN2daQllVaUZDYWxHN0MyMnQ2V2t3RjRZd0F2UjluRG9yWkZLa3Jta0RfdndCR0dqN2VyNHdrTjRxX1dDQmtGYW9RU3RGUHZrcnFBUlR3ZXB4am1uYld3eEhjdWdnZWtpMGVLUmJNbW4?oc=5"
+      "제목": "트럼프, 종전 카드 꺼내나…\"이란 수뇌부 '참수작전' 검토\" - 한국경제",
+      "발행": "Tue, 24 Nov 2026 21:16:55 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4NHNYNXJYNGVqWFMwd0luRVNvUG5rMzdSVXdtTkZCRzhhNUt5b2VhVWk1Q2FCcFphaFcyWGlTTEJkWENhSm5NMEJoMzE5VjJ4Z2ZqSURhXzRTUQ?oc=5"
     },
     {
       "분야": "국제",
-      "제목": "北, 중국산 휘발유 3개월째 수입…항공용 등유도 10년 만에 수입 - 연합뉴스",
-      "발행": "Tue, 24 Nov 2026 00:01:58 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MdlVpWnVtOHE1WElrZXZDR2FlVWI4aTJ3M2FiVGttVFhYaUlLVlZudG9hdXYydzEta19FcmFGOUhhT3BYeUJVYnVXU0dTS1JzUUF3M2VHZ19jclnSAWBBVV95cUxNSHhoM2FnRkYyMldxRER2WDF3VnhoZWh0dVAwbEtZc2hOVjRYOGJMSTBvSHVwSEczV0dYQ19jQmVKQ2Zidk9ndnNoM3pqcnY4Mlg3akM3ZEVRaXRlQ3JFV3Q?oc=5"
+      "제목": "[점선면] ❤️‍🔥지구멸망 닥쳐도 '화석연료'는 못잃어? - 경향신문",
+      "발행": "Wed, 25 Nov 2026 00:37:12 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xcjhoUnJSR0VzLVFvaTBsTFgyWmhjTURBX0sxSHA3eWZwT1JrVTJ2VDdDNHh1emFQTmdRbXl5UXFiOU9rRVpEZFdqWW13QlZVWXNFQlZiUHZHbDFZMlhRc2tMYmhmR3JHQnNWd2VnZw?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "젠슨황 복귀시킨 트럼프, 엔비디아 급등에 최대 221억 원 수익 - MBC 뉴스",
-      "발행": "Tue, 24 Nov 2026 02:46:59 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14bVpDX2gtbDdLelFSUkhZbkdtX2ktRTVWVWNGUjhMdVdGa0I4bjZra3JBVV92el9KanFWLU5mV1pybEs0UWhwem50RTFPUEpLd2M4dzFGT3pLdThqUWlGajl1ci1ZWUVWTlF0MXBMeldLT24x0gF0QVVfeXFMUGNTZlNGeG5NbkUxTk4zNXJSYWxaZXBvWGhXRVYwVFNBZWVDNVNzZjdCeUtqMzlJQmNTRXdzVXFNdnVmRWszcGRsRXJ0eF9jX1VkM0FEVkwtSTdYMjl0OVF1V0hjakpnUXNDS1ktbVp4ajBiMTY?oc=5"
+      "제목": "젠슨 황 복귀에 AI 신용시장 다시 '흔들'…코어위브 채권금리 17% 돌파 - 연합인포맥스",
+      "발행": "Wed, 25 Nov 2026 01:00:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PNEUtRTdPN0ktUG5Gemdsa00ydWliWjFZYUgwd1cwaWN0TTUtWWllOEF3d3E2Q1B5SHlRem9XX2taWE1DYTRnZFB1OHRnUnBlZjFoSXVOYUptaTV4bUZVckR2ZUhDVkdJeXpUT0lQR2E?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "젠슨황 복귀에 코스피 5천선 안착…7%대 급등 - 연합인포맥스",
-      "발행": "Tue, 24 Nov 2026 05:11:24 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TMl9ZVlVxYjh6YWdfYVJPUzByQzI1WUdsTU9OZ1A2T3dIR0s3V0paWTJJY0dnUjNIQVkyNmF4RWxqNXBfZFV4eUc3bnNCS25FMG9SUTVCN1I5WkMwcm9VaW44Mi1QbGxNM2g1ZnVlZHQ?oc=5"
+      "제목": "하루천하 ‘젠슨 황 효과’…코스피 4% 급락하며 매도 사이드카 - 한겨레",
+      "발행": "Wed, 25 Nov 2026 01:19:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KcGFDUk5lM0VUOHVCZ2ZOVUZLcGlNX3poaTczTWdyeGxpWExqNnBxS1dDbjlqdG0weF9Wb2E0VnZZdTMzQzVkVnBORDJ3Y2h5LTRBTDZGOHp6LUxaNmszaG56aXVtVUE?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "코스피 3천선 후반 전망까지…증안펀드 구원투수 되나? - KBS 뉴스",
-      "발행": "Mon, 23 Nov 2026 12:07:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZQUZJZkMtTmZteHVWUG8xNDFZbXFJek5SMDh3UXctRi0yT3ZsYTFRZXZraTZHTm9VQS1rV29NeFBJNk5VMkwzaUZCNGUyVXlTMnZ4MlBNS1ZBUFU?oc=5"
+      "제목": "젠슨 황 약발 떨어졌나…'부채 우려'에 AI 관련주 동반 하락 - 지디넷코리아",
+      "발행": "Wed, 25 Nov 2026 02:20:56 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BOW1KUllIazlNWEtkZ3N6SFN5bmlVbGlGSjdPZFdLMV9JMjhfeTMybnlMT0UybWRtSzR3ZXpaOGgxWFZLSWxlR0NMbHg0TlB6bWJLYjN3?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "‘주가 하락’에 소비 심리 두 달 연속 위축···집값 상승 기대도 ‘뚝’ - 경향신문",
-      "발행": "Tue, 24 Nov 2026 01:58:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBodHpNQkxQcWFJNWlWdm5ENVBaZ25MU0RES1BOUzctOUc2d244d3BoeXF5V1V2VDdSdUYxNnFHc2EwM2tVS2tvU1lyeXBoNFRzVEhYS2I2anRqQdIBX0FVX3lxTE1oWWdPLVJ6Rnotc0FBeHRKQlhvYjFhdGhLOW5yYUF1UjlfOW5IQzV0XzFPOE96Nnp6WWpYUFFHakRXQXVIQS1HbXlydUlZaVVjV2FGdTB0X2Y0bzhQSUlj?oc=5"
+      "제목": "내일 금리인상 확신하는 단기금리…골드만삭스 등은 동결 전망 - 연합인포맥스",
+      "발행": "Wed, 25 Nov 2026 02:02:05 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83eFZTdWY0R3g5amQ3XzNBTDR6Y192X3JPaE9DOUpmM21zV1Q1Vm1UZFV0YkNiclQzaWxyTjQwNUtQLWFibTJSU1g5MWQtSWRwMWtrWWY2SWczdzRsWkZjN2xPWkxKSDFtMUJ3cTFha20?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "결혼 의향 남성이 더 높은데…30대 남성 61%가 미혼 - 연합뉴스",
-      "발행": "Tue, 24 Nov 2026 03:00:02 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zUnNpa2dFaDZGRnl5cXFUUW0wSHJuRk1fUE1VUGtoWHphbFNKcHVBWUNseXRyR0Nsc2dZM3h0OHdmWW9saGwyWWUydmsyTTRZcDhkTlVZT18yVEnSAWBBVV95cUxNWnd2dENCVmxheFczTHZXYWkwNnI3VXlSR2ZKVFZ3X0VwYmNSXzJZQ0JUSG9ZX0FScG9WZmNNV2VqcWlUNkRrRkxMelJNQkxacVZIOE1SNXRTcHZrdzVUZGU?oc=5"
+      "제목": "어제는 매수, 오늘은 매도…코스피, 매도 사이드카 발동 - Chosunbiz",
+      "발행": "Wed, 25 Nov 2026 00:11:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHBQeU0xYUN4T0Q5VEZVV2JDLUg3Y1NzazF5SzBDRnRDb0RXMXUtU3BRNHdwS3RhT2hlNDctbG5iVDE5RGtIQzdjNDhaSHFBRUg5dnNFVGc5SkFDUl9YeDlGbzBLb0U5TnlxVk1MTm1MdEhSdFE0UlBPbjNhVjI4UFFBcjEzMGM10gGcAUFVX3lxTE83cFZKbU8tMVlGemlYRWJqMTVEYmtwYkZyVW80ZGJvMy00RFBqRFZOVWlWaE1IZUk2THV1NTdZNG5wd2V2NjY3Zm5JMHIzTkF2TVpDWnBFNWNGc0JuanctTG1TRHgwTVA5Q2hkV3NHV1hfYmtnSGFBaUgyd1BPWHB5VVNpTjFPUENBV2NoSHV6RTlRMDhIaW5VRDJJWQ?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "현대차, 산림청·세화차와 맞손…ST1 기반 산불 대응 차량 실증 - 뉴스1",
-      "발행": "Tue, 24 Nov 2026 00:24:54 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1TnBzYW1fbUx5anBfNjRBaVlCWW42bkc4NEY5Y0IxeF9leEo4VTlDbWNWVTlma1lBZ0pmVDhVNHFJWUM5Q2IzYU1vQ3ktSDVhWDRMQ0k2cG5nSkFHMmlUcw?oc=5"
+      "제목": "[K팝 종주국의 빈 무대④]공연·경기 없어도 북적…\"도쿄돔 전환점은 호텔·스파\" - 아시아경제",
+      "발행": "Wed, 25 Nov 2026 02:50:54 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GRXA5cjhPcWl0MFBZVEI1R0hzSFdKbURUc21qN3RhRWtNME5IQjQxS0twWXRlR0tPTmY2SEw0UHA3QzdhbjdCTXNzaTRtR0pHUWVxOEQybHU0Z0lSWFJ1MQ?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "'경제성장전략' 다시 '경제정책방향'으로 바뀐다…민생·양극화 대응 방점 - 연합인포맥스",
-      "발행": "Tue, 24 Nov 2026 02:52:51 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyQ2FtVDRHOGZRMU1fR1ZQZnltU3dNNlBOYkJRUlpxNzhxQ0t1dFhqNzM0bjNlTVhkeDFRTFFYbE91WXZWVHctcTZuX292SC1yRF9Lc1JqRV9CeDhQcElMaHZrb2hnaUhNVG5EaG92c0I?oc=5"
+      "제목": "비트코인 급락에 투자자 손실 확대…큰손은 '매집 전략' - 지디넷코리아",
+      "발행": "Wed, 25 Nov 2026 01:55:30 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4WHA4T19WaHcwWFdJeFZGUkxWNjcxckhTR1Y3Wm1fcDRZYkl3bkdNQ2lyTG0xb3BNaXVDUE9FWTRGenJDbm5yZWlQaGR6VzdqeVFQUzd3?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "[속보]코스피, 매수 사이드카 발동…올해 100번째 사이드카 - 머니투데이 - 머니투데이",
-      "발행": "Tue, 24 Nov 2026 00:06:24 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UcmIyUE9RWEdXbWl4WmMtRV9UZE0tSThHTFAyOGoyd01iamU1WVdfbGpnX1ZHd05xWElGTWQ3djRyblRfdTM4NnQtQXk2SVZpUjlVUlRaMUZrckVjWDBLdlN1VmhxRjAt0gFuQVVfeXFMTS1ySU1RZm5zY2ZiXzJLQkk5bUIzd1dEZ2tPZHFxY09CRkdVbkN0ZUNrdTVEMUVzZWFpdEw0WjIzVlkyY092cHJTbF9lVldWUWJaTml0UWQzSk1NeS1QdUNUaVpNbzVaNFZqb1o2eWc?oc=5"
+      "제목": "롤러코스터 장세에 靑·정부 움직인다…관망서 '적극 대응' 기조 전환 - 뉴스1",
+      "발행": "Tue, 24 Nov 2026 20:05:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FcUNPUHZmVGUtQUc5Tko0NnZ4elVTWGRNU2pWQ05lNnVrQ2FyVzBXY0FTaURPVGFwU09sbFA3X3FHOG5PekxkdHl1N19FNDE2RWlFcmtyOEc5cTQ?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "젠슨 황 복귀 몇시간 뒤…미 상무부, ‘불륜 상대’ 회사 제재 - 한겨레",
-      "발행": "Tue, 24 Nov 2026 02:53:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWWRmLWR5V2lXaTFpYm1ISU5WaktIdE03VHZuWWI5dGJJZG5ENjFZa0t5UlZzeUVYdDBNbktJVmxFUW8zRmR3cF8wREhybDBIVlhMdG1pOXRlbXBrWW13MXlNd2lxd1FVQU5kYnpiNHRKU0Z5NWx2aU54Y2xtNDFWdmp3?oc=5"
+      "제목": "12월부터 만 13~18세 청소년도 모두의카드 이용 가능 - KBS 뉴스",
+      "발행": "Wed, 25 Nov 2026 02:01:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WU0FkT3ZHSm1LVXRmajNBZTNGSUZ2WFpSRWdCb2R1X3JFZTlvZUdaN1hVcS1CQjhPWnN0Q1VLM1NleUpuNGdKOW00MHBkaGstZmdKVFZiaDlMMGc?oc=5"
     },
     {
       "분야": "비즈니스",
-      "제목": "이 대통령 \"강남 엄청 떨어져‥건설사에 '매입 확약' 제도 필요\" - MBC 뉴스",
-      "발행": "Tue, 24 Nov 2026 02:41:03 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMieEFVX3lxTE40RHFLNDBIOS1vOVZHWU8wMkRBTVdpT3ozVkQ5Nk9NY0U0SllZYWY0b2tSNklmbzhqMUVvMGpqQnZKcjV0akdyUTZsaGZmZFFMUUIzWWxKR2hBOHBUZFJmOW1CLUljVGxLdzJIbUZ5cUtJSFBBS1ZxYtIBeEFVX3lxTE9HbXMtWXFLSmJIUWlUQTFLR1YxRUZVanhpNlJiUjFuX29yV2k0Tkw1OGtaMko1R21UYWN4TW1kNjQ3MUZlV3BhaEpubWs5a01zczJKMnpaQUhWUjVRWURVYlVIN0lFLVF2REN4NXBrYnM1VTJrZHV2Ng?oc=5"
+      "제목": "\"배달기사들 500m 걸어서 와라\"...청담 아파트 갑질에 '공분' - YTN",
+      "발행": "Tue, 24 Nov 2026 23:34:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SVE9LTUxvYUtCM05xVUlDcFdEN2VxakVKeDVJY21kZWNmS3FMWU1qZ0hlRmVZU3B1bl9LX0NpY2lOck1XenlyZThHUmtZUi1pQVZvUlN2Tk5yTWZXRWZSYVRyRV9tbGJNN1dIeGZrcw?oc=5"
     },
     {
       "분야": "과학기술",
-      "제목": "‘검은 가죽 재킷’ 벗은 젠슨 황 “오늘 제 첫 출근 날, 고맙다” - 조선일보",
-      "발행": "Mon, 23 Nov 2026 20:22:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUUdmQ1MtRmdoRFVPWWt5U243c1VzQXlSNXVlc3FMb3dBRVRIajZDMGZnNXRGdnNnaXA0RV9fbW40eEN6cEVuRmV3MTI4cEV6TENGNHQ5WWxsMS1uc2h6bDU3aG8zRlk4cFRpTnZpZWtSTFRwZUh1ZEhmT1VSNklxSl9FVQ?oc=5"
+      "제목": "‘언터처블’ 된 젠슨 황... 통과해야 할 3대 관문 - 조선일보",
+      "발행": "Tue, 24 Nov 2026 01:26:41 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMElmb2ZwSENMWUhxMmNMWHBKbnVpR1JpMzc2ZEs3ZUNLSmlPamdLWjNsMF9MLWQzcWQ0VlctQi1sZXlKUmdRbGkwdnlYeU9uMnhndV8yQTZyUk02VWlCVDRqUTBkZ1p4Nk1FR1NRa1FCZzk3WGJZd1lPX1BPcmFhNHYyOA?oc=5"
     },
     {
       "분야": "과학기술",
-      "제목": "사람 대신 로봇 투입한다더니…中 자동차업계 ‘속도조절’ - 매일경제",
+      "제목": "삼성전자, 임원 131명 승진 인사…HBM·로봇 핵심 인재 중용 - 조선일보",
+      "발행": "Tue, 24 Nov 2026 05:48:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ0Zrczd0bkJKNmI2RUduT0h5Y1MxY0hJQUhzYzBLR1EtN2Y2MFg4SDVaRENzbGtUX2JFajBNZXdoTGxOdkVaQUR2RUlrY1NaSVM5N2NsdW43RXY3bUV6TzJydWZNTXoyZWRJcEYwRkc2S1BMUXF6dFBtNjVkX3RDQ1EtTQ?oc=5"
+    },
+    {
+      "분야": "과학기술",
+      "제목": "중국산 로봇, 일하다가 자꾸 망가진다…투입 속도조절 나선 中 자동차업계 - 매일경제",
       "발행": "Tue, 24 Nov 2026 01:33:00 GMT",
       "출처": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XU0dmSThBc1k0cUMybFhRVi1LanN5TGtKaGQ3WV9weEVMN0tEcWhJWEg4YjRaSXJZOGo5akx4T2FtMUx4LUJyOUYzVmRQcUxNZ19heDRR?oc=5"
     },
     {
       "분야": "과학기술",
-      "제목": "삼성전자, 임원 131명 승진 인사…HBM·로봇 핵심 인재 중용 - 조선일보",
-      "발행": "Tue, 24 Nov 2026 00:12:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ0Zrczd0bkJKNmI2RUduT0h5Y1MxY0hJQUhzYzBLR1EtN2Y2MFg4SDVaRENzbGtUX2JFajBNZXdoTGxOdkVaQUR2RUlrY1NaSVM5N2NsdW43RXY3bUV6TzJydWZNTXoyZWRJcEYwRkc2S1BMUXF6dFBtNjVkX3RDQ1EtTQ?oc=5"
+      "제목": "하루 만에 314조 원 증발…엔비디아 시총 이틀간 ‘롤러코스터’ - JTBC",
+      "발행": "Tue, 24 Nov 2026 22:46:00 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KalBVd0MyV2Q2LXZ3Nkd5UjV0cVJGNzY1YUdmdjdJQmFvaGIyemRIUUE3MzAtR3lkVkg3UTh3UjlHNXF2ZFRJWURmYXM4TjZxQk8zLQ?oc=5"
     },
     {
       "분야": "과학기술",
-      "제목": "[단독] 통신3사·네이버, AI 에이전트 전화 응대 거부키로 - 조선일보",
-      "발행": "Mon, 23 Nov 2026 05:35:01 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQnQ1dzJXeUxDSTJwQV9rSEhMQ0RRSDZZczZVbXBMaGxpQlBtQk4wVnJyc1ZsbEhoM0xzUVNuRWhYaDNxa3JKaFY4bm5ZM2ZmMUtvRWV5TGtVbFlYQVloYnVTVTBwdjRFZ09qYXBvTkpIOVhZbE4zbWI1cGVacjh2TVlLOA?oc=5"
+      "제목": "美CFTC, 비트코인·이더리움·스테이블코인도 금융준비금 인정 - 이데일리",
+      "발행": "Tue, 24 Nov 2026 02:17:59 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMHFhcjhsOWRxLThtYmpEbXc1UU1yRkw3MXF4ZXBhb0d5V1VuMnpLSmZZY01zVkRGSHkwWlh1Y3Q2RWh4Nm5kWnVqWU9leE1JY1Y1SEt0MUo0Q2JxQW10WVpLT2RlbGVnVFJ5dHlGYm8xUHYyVUxzY3kwRTJQbTFCVw?oc=5"
     },
     {
       "분야": "과학기술",
-      "제목": "\"아직도 워크맨이 나와?\"…가격 보니 '550만원' - 이데일리",
-      "발행": "Mon, 23 Nov 2026 00:08:57 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaG9FZXZWRUgtOGxXY2RIaV85NzNuTDhXdUhJUWdsYmh3YmpvaDhfaGo5eGVWNEptU2hfdzhMN21XdEt5WTItN0p5R0E1cV9ZOE5xVWdRZnJjOEJSd2tWTk5pbUFmOUZNZENTTUlYYWFJeWRWRFhSbGhsVGJEdWd3Yg?oc=5"
+      "제목": "“거품 터진다” 경고에도 불구하고…457개나 더 사들인 ‘간 큰’ 스트래티지 - 매일경제",
+      "발행": "Tue, 24 Nov 2026 04:18:58 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OSUlqMzdadldkNHVHQzRNcWdzd3VNdVNSc2lTUlpJZkNPanZPZGg1MjNzZnNnejBrVHpITi1wOGZVTDdxOU5tSFh4UG9DdFFDclE?oc=5"
     },
     {
       "분야": "과학기술",
-      "제목": "SK하이닉스 폭락 두 번 맞힌 애널리스트, 또 “더 떨어진다” 경고 - 경향신문",
-      "발행": "Mon, 23 Nov 2026 07:30:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRQWlVNUZZc1gxcnFxem5Za2dZQlFwRnRrRW42OGh6VUFIVmtDaEFudlk0Uk5tOHhtc0dYVHc1REVfekpYYnNOOUx2MnJmazZyQWdnUzBTalljQdIBX0FVX3lxTE9WcXZWMkx1dmVRWmU3OHhTQm8wekQtTWR0QVJfb21TQ3dRYzhVNTB1dHpIOG1CZEhJbXJSeG43WW5OVERWbm55TC16UEJXang1X1h0TFlrTUFraElrUFl3?oc=5"
+      "제목": "트럼프 엄포에 급락한 데이터센터株 반등…증권가 “우려 과도…저가매수 기회” - 한국경제",
+      "발행": "Tue, 24 Nov 2026 05:47:05 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tMmMzR1A5MlVnNTJtbGRhZS1NaEx2NU1NMTJrTktJc2tSRVNtWUlRTjFEUVZmZVUyMTRSRmFfSzBfS3JHTjlNdGJBaDBRWGxBa3hkUklicVR0dw?oc=5"
     },
     {
       "분야": "과학기술",
-      "제목": "젠슨 황 복귀한 날, 앨리스 황은 ‘블랙리스트’…미, 관련 업체 제재 - JTBC",
-      "발행": "Mon, 23 Nov 2026 21:40:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1lSHFMNGJYbW9SczBzN0NHd3poSGd5QnY2LTRqeGlDNm44MkNuMHdwMkpuSFZvcVRLRmJEMlItbFRqUGRSZTJ4bzJ4ZzNvOXFhTW1GVg?oc=5"
+      "제목": "FTX 사태 때 악몽 떠오르네…비트코인, 끝모를 추락 - 매일경제",
+      "발행": "Wed, 25 Nov 2026 02:17:06 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mNkdSRFFHa2h5bTQxcFFSSGFOSENyMnBuMmJ1RUhpZk5NRDVqV0xTWlhfdjFwLU5jOXNEMGtuVlJ6QXNsRzZvbnVlSW5BTEkwNnc?oc=5"
     },
     {
       "분야": "과학기술",
-      "제목": "[단독]삼성 첫 휴머노이드, 한손당 모터 20개 탑재 ‘초정밀 작업’ 가능 - 동아일보",
-      "발행": "Mon, 23 Nov 2026 19:30:00 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CczJuLU43Z1FIRWZYdGRHYm1WR2VUeUVrT09TM2pRMVZSMjBwbXlTYW1QZ0o2N1pTUmdXdk00c2RYUzlTNmd6ZmY3X2l5OENJZHdJWXlWQlVHZGFkeEhPb0JRcmt3WGZlckJfUGs1WGVEbDl4amfSAWZBVV95cUxOSlJPRDI5SGNhOEdYNFA1LWVmWGllbC1hZC1ZNEU5NUExd29UbGVGczRUNXBIS0RVZU15bmNTcXJZQVhha2ItT0ZiYkNsY0ZSQWh1M0pGLUtwR20wVWE5RlVkU3R2UHc?oc=5"
-    },
-    {
-      "분야": "과학기술",
-      "제목": "K원전 팀코리아 “체코 원전 일정 차질 없어…정해진 예산·기한 내 준공” - 이데일리",
-      "발행": "Mon, 23 Nov 2026 02:36:07 GMT",
-      "출처": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVmJJR1VKV1djd3Q3TzVpendzd1VZT0pOeUJkZ1dqN0FMckEtdEtQeVphc0Y2QzU5RXJWS2ZzeEtheWN2ZWVBMTRjNkFKRm9aOFJvNHNnZGdxRGppUjFwWFN1bDJGZ3UySUV6Ul8tWHNnd2JXNkduU2ctTUdkUVloWA?oc=5"
+      "제목": "AI 비서 '피클' 이용자 급증…네이버·카카오, 어디까지 문 열까 - 지디넷코리아",
+      "발행": "Tue, 24 Nov 2026 08:49:56 GMT",
+      "출처": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5weVJTYmF1Q2dONEJVWHktVFI3bzJNVnkwVGpWeGtGczZZOG9pOVAzVmZhT3haRFRlNGtKZkxMWnZfZG1ydkpYU0V4VDJoSEoyZmQ4YlJ3?oc=5"
     }
   ],
   "markets": {
@@ -252,10 +252,10 @@
         "name": "에스앤피 오백",
         "symbol": "^GSPC",
         "group": "미국",
-        "price": 7237.17,
-        "change_pct": 4.7288193114435995,
-        "as_of": "2026-11-24T06:42:33+09:00",
-        "session_date": "2026-11-23",
+        "price": 7201.09,
+        "change_pct": -0.49853633760822413,
+        "as_of": "2026-11-25T06:00:00+09:00",
+        "session_date": "2026-11-24",
         "session_state": "최근 정규장",
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EGSPC/"
@@ -264,10 +264,10 @@
         "name": "나스닥",
         "symbol": "^IXIC",
         "group": "미국",
-        "price": 24089.559,
-        "change_pct": 6.5074103402353645,
-        "as_of": "2026-11-24T07:16:01+09:00",
-        "session_date": "2026-11-23",
+        "price": 23733.535,
+        "change_pct": -1.477924622917981,
+        "as_of": "2026-11-25T07:15:59+09:00",
+        "session_date": "2026-11-24",
         "session_state": "최근 정규장",
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EIXIC/"
@@ -276,10 +276,10 @@
         "name": "다우",
         "symbol": "^DJI",
         "group": "미국",
-        "price": 49595.31,
-        "change_pct": 3.0073981909042757,
-        "as_of": "2026-11-24T06:42:39+09:00",
-        "session_date": "2026-11-23",
+        "price": 50018.7,
+        "change_pct": 0.8536924524819911,
+        "as_of": "2026-11-25T06:00:00+09:00",
+        "session_date": "2026-11-24",
         "session_state": "최근 정규장",
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EDJI/"
@@ -288,11 +288,11 @@
         "name": "코스피",
         "symbol": "^KS11",
         "group": "국내",
-        "price": 5052.98,
-        "change_pct": 7.315217839924748,
-        "as_of": "2026-11-24T14:43:50+09:00",
-        "session_date": "2026-11-24",
-        "session_state": "최근 정규장",
+        "price": 4717.53,
+        "change_pct": -5.76304571762043,
+        "as_of": "2026-11-25T13:33:40+09:00",
+        "session_date": "2026-11-25",
+        "session_state": "장중",
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EKS11/"
       },
@@ -300,11 +300,11 @@
         "name": "코스닥",
         "symbol": "^KQ11",
         "group": "국내",
-        "price": 669.92,
-        "change_pct": 5.424500295978962,
-        "as_of": "2026-11-24T14:43:50+09:00",
-        "session_date": "2026-11-24",
-        "session_state": "최근 정규장",
+        "price": 652.01,
+        "change_pct": -2.0829586083236484,
+        "as_of": "2026-11-25T13:33:40+09:00",
+        "session_date": "2026-11-25",
+        "session_state": "장중",
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EKQ11/"
       },
@@ -312,11 +312,11 @@
         "name": "삼성전자",
         "symbol": "005930.KS",
         "group": "종목",
-        "price": 192100.0,
-        "change_pct": 8.225352112676054,
-        "as_of": "2026-11-24T14:43:54+09:00",
-        "session_date": "2026-11-24",
-        "session_state": "최근 정규장",
+        "price": 172000.0,
+        "change_pct": -9.18690601900739,
+        "as_of": "2026-11-25T13:33:43+09:00",
+        "session_date": "2026-11-25",
+        "session_state": "장중",
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/005930.KS/"
       },
@@ -324,11 +324,11 @@
         "name": "에스케이하이닉스",
         "symbol": "000660.KS",
         "group": "종목",
-        "price": 1177000.0,
-        "change_pct": 8.47926267281105,
-        "as_of": "2026-11-24T14:43:54+09:00",
-        "session_date": "2026-11-24",
-        "session_state": "최근 정규장",
+        "price": 1044000.0,
+        "change_pct": -9.84455958549223,
+        "as_of": "2026-11-25T13:33:43+09:00",
+        "session_date": "2026-11-25",
+        "session_state": "장중",
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/000660.KS/"
       },
@@ -336,9 +336,9 @@
         "name": "비트코인",
         "symbol": "KRW-BTC",
         "group": "코인",
-        "price": 82227000.0,
-        "change_pct": -1.79036381,
-        "as_of": "2026-11-24T15:03:51.564000+09:00",
+        "price": 80246000.0,
+        "change_pct": -1.4673199,
+        "as_of": "2026-11-25T13:53:41.898000+09:00",
         "source": "Upbit",
         "url": "https://api.upbit.com/v1/ticker",
         "comparison": "전일 종가 대비, UTC 0시 기준"
@@ -347,9 +347,9 @@
         "name": "이더리움",
         "symbol": "KRW-ETH",
         "group": "코인",
-        "price": 2313000.0,
-        "change_pct": -0.9845890399999999,
-        "as_of": "2026-11-24T15:03:56.242000+09:00",
+        "price": 2252000.0,
+        "change_pct": -1.53038916,
+        "as_of": "2026-11-25T13:53:43.798000+09:00",
         "source": "Upbit",
         "url": "https://api.upbit.com/v1/ticker",
         "comparison": "전일 종가 대비, UTC 0시 기준"
@@ -358,9 +358,9 @@
         "name": "수이",
         "symbol": "KRW-SUI",
         "group": "코인",
-        "price": 919.0,
-        "change_pct": -0.32537961,
-        "as_of": "2026-11-24T15:03:17.797000+09:00",
+        "price": 872.0,
+        "change_pct": -1.24575311,
+        "as_of": "2026-11-25T13:52:52.742000+09:00",
         "source": "Upbit",
         "url": "https://api.upbit.com/v1/ticker",
         "comparison": "전일 종가 대비, UTC 0시 기준"
@@ -369,9 +369,9 @@
     "errors": []
   },
   "writer": {
-    "closing": "남들과 속도를 맞추려고 조급하게 마음먹지 않아도 괜찮아요. 나만의 온도로 차분하게 이어가는 오늘이 무엇보다 소중하니까요. 정기님, 자신을 아끼며 편안하고 따뜻한 하루 보내세요.",
+    "closing": "오늘 하루는 너무 많은 일을 무리해서 해내지 않아도 괜찮아요. 그저 내 마음이 편안해지는 순간을 한 번 더 챙겨보는 것만으로도 의미 있으니까요. 정기님, 스스로에게 너그러운 편안한 하루 보내세요.",
     "validation": {
-      "fact_tokens_used": 38,
+      "fact_tokens_used": 39,
       "news_ids": [
         0,
         1,
@@ -388,7 +388,7 @@
         "crypto",
         "closing"
       ],
-      "recent_closings_checked": 14
+      "recent_closings_checked": 15
     },
     "engine": "gemini",
     "model": "gemini-3.6-flash"
